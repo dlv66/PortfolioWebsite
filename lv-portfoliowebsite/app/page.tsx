@@ -1,14 +1,17 @@
 import Image from "next/image";
+import Navbar from "./components/Navbar.jsx";
+import Profile from "./components/Profile.jsx";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen bg-[#075631] font-sans">
-      <h1 className="text-4xl font-bold">
-        Denis Leeroi Villamiel
-      </h1>
-      <h3>
+    <main className="flex-row min-h-screen bg-[#075631] font-sans">
+      <div className="flex justify-center items-center py-8">
+        <Navbar />
+      </div>
 
-      </h3>
+      <div className="flex-col">
+        <Profile />
+      </div>
     </main>
   );
 }
