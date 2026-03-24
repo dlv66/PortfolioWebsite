@@ -1,0 +1,15 @@
+TODO in this project (as of March 24, 2026)
+
+Function
+- Add responsiveness for mobile devices (and other widths)
+- Add personal projects page
+- Add skills page
+- Add "Created using ____, designed in Figma" at the end of the website or somewhere
+- Implement copied to clipboard function for contact methods
+- Implement per-project pages
+
+Style
+- Add animations whenever switching pages
+- Add cursor animation/effects
+- Add photo of self in about page
+- Create thumbnails for each project
