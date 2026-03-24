@@ -4,8 +4,8 @@ import AboutContent from "./components/AboutContent.jsx";
 
 export default function Home() {
   return (
-    <main className="flex flex-col min-h-screen bg-[#075631] font-sans px-40">
-      <div className="flex justify-center items-center py-8">
+    <main className="flex flex-col min-h-screen bg-[#075631] font-sans px-160">
+      <div className="flex justify-center items-center pt-8 pb-12">
         <Navbar />
       </div>
 
