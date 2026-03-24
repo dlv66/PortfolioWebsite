@@ -1,5 +1,14 @@
 @import "tailwindcss";
 
+/* Long pages show a vertical scrollbar; short pages don’t. Without a reserved
+   gutter, the content width jumps and centered layout (navbar, columns) shifts.
+   overflow-y: auto makes html the scroll container so scrollbar-gutter applies
+   even when the document isn’t overflowing yet. */
+html {
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
