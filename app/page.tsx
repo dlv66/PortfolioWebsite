@@ -8,12 +8,12 @@ import Skills from "./components/Skills.jsx";
 
 export default function Home() {
   return (
-    <main className="flex flex-col min-h-screen bg-[#075631] font-sans px-160">
-      <div className="sticky top-0 z-50 flex justify-center items-center pt-8 pb-4 bg-[#075631]">
+    <main className="flex flex-col min-h-screen bg-[#075631] font-sans">
+      <div className="sticky top-0 z-50 flex justify-center items-center py-8 bg-[#075631]">
         <Navbar />
       </div>
 
-      <div className="flex flex-col w-full gap-8 pb-16">
+      <div className="mx-auto flex w-full max-w-6xl flex-col gap-8 px-6 pb-16 sm:px-8">
         <Profile />
 
         <section id="about" className="scroll-mt-28">
