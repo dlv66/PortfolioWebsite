@@ -8,20 +8,11 @@ const AboutContent = () => {
             </h5>
             <div className="flex flex-col gap-2">
                 <p>
-                    I am a BS Computer Science graduate from De La Salle University, 
-                    specializing in frontend development and UI/UX implementation. 
+                    Hi! I'm Leeroi. I am a BS Computer Science graduate specializing in web and software engineering, with a strong emphasis on modern frontend architecture and user interface engineering. 
+                    I build responsive applications using React, Next.js, TypeScript, with experience integrating RESTful APIs, handling component state, and working with databases.
                 </p>
                 <p>
-                    I am experienced in building production-ready web and mobile applications
-                     using React, Next.js, and TypeScript. I have led UI/UX design and frontend development 
-                     across multiple team-based projects. I ensure strong focus on usability, 
-                     clean component UI architecture, and translating product requirements into 
-                     maintainable user interfaces.
-                </p>
-                <p>
-                    I am passionate about <span className="font-semibold">design</span>, professionally and personally. 
-                    My work focuses on building visually consistent user interfaces that support 
-                    efficient and intuitive user flows.
+                    My work focuses on building clean & maintainable component logic, and delivering user-centered software from design through to production deployment.
                 </p>
             </div>
         </div>
