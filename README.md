@@ -1,6 +1,6 @@
 # Denis Leeroi Villamiel — Portfolio Website
 
-Personal portfolio showcasing education, experience, academic projects, and skills.
+My personal portfolio that showcases my education, experience, academic projects, and skills. This is mostly used to present my previous projects as someone who has worked on UI/UX and frontend roles in university.
 
 ## Tech Stack
 
@@ -14,7 +14,7 @@ Personal portfolio showcasing education, experience, academic projects, and skil
 | Font | [Inter](https://fonts.google.com/specimen/Inter) via `next/font` |
 | Linting | ESLint (`eslint-config-next`) |
 
-## Getting Started
+## Running The Portfolio
 
 ```bash
 npm install
@@ -22,15 +22,6 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-### Scripts
-
-| Command | Description |
-| --- | --- |
-| `npm run dev` | Start the development server |
-| `npm run build` | Create a production build |
-| `npm start` | Run the production server |
-| `npm run lint` | Run ESLint |
 
 ## Project Structure
 
@@ -45,7 +36,7 @@ app/
 
 ## Sections
 
-The site is a single-page portfolio. The navbar scrolls to:
+The site is a single-page scrolling portfolio. The navbar (and its buttons) scrolls to:
 
 1. About  
 2. Education  
