@@ -17,9 +17,9 @@ const iconClassName =
 const Profile = () => {
     return (
         <div className="flex flex-row items-start justify-between gap-4 pt-8 pb-4">
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col gap-4">
                 {/* Name */}
-                <h1 className="text-4xl pb-2 font-bold text-white">
+                <h1 className="text-5xl font-bold text-white">
                     Denis Leeroi Villamiel
                 </h1>
 
@@ -29,12 +29,12 @@ const Profile = () => {
                         BS Computer Science Graduate
                     </h3>
                     <h3 className="">
-                        Frontend Developer | UI/UX Designer
+                        Software Engineer | Frontend & UI/UX Specialist
                     </h3>
                 </div>
 
                 {/* Social Media / Contact Information */}
-                <div className="flex flex-row items-center gap-4 pt-2">
+                <div className="flex flex-row items-center gap-4">
                     <a
                         href={contacts.github}
                         target="_blank"
