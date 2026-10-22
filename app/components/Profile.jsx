@@ -16,7 +16,7 @@ const iconClassName =
 
 const Profile = () => {
     return (
-        <div className="flex flex-row items-start justify-between gap-4 py-4">
+        <div className="flex flex-row items-start justify-between gap-4 pt-8 pb-4">
             <div className="flex flex-col gap-2">
                 {/* Name */}
                 <h1 className="text-4xl pb-2 font-bold text-white">
