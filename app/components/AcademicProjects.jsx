@@ -1,8 +1,8 @@
 const AcademicProjectsContent = () => {
     return (
-        <div className="flex min-w-0 flex-col gap-4 py-4 px-8 text-[#DFDFDF]">
+        <div className="flex min-w-0 flex-col gap-4 py-4 text-[#DFDFDF]">
             <div className="flex flex-row ">
-                <h5 className="font-semibold text-[#F5F5F5] px-4">
+                <h5 className="text-xl font-semibold text-[#F5F5F5]">
                     ACADEMIC PROJECTS
                 </h5>
                 {/* TODO: Add icon here for circle change button to swap to Personal Projects. */}
@@ -12,7 +12,7 @@ const AcademicProjectsContent = () => {
 
             <div className="flex flex-col gap-4">
                 {/* PROJECT 1 */}
-                <div className="flex min-w-0 flex-row gap-4 p-4">
+                <div className="flex min-w-0 flex-row gap-4">
                     <div className="w-48 h-27 bg-white rounded-lg shrink-0">
                         {/* TODO: Add project thumbnail here. */}
                     </div>
@@ -56,7 +56,7 @@ const AcademicProjectsContent = () => {
                 </div>
 
                 {/* PROJECT 2 */}
-                <div className="flex min-w-0 flex-row gap-4 p-4">
+                <div className="flex min-w-0 flex-row gap-4">
                     <div className="w-48 h-27 bg-white rounded-lg shrink-0">
                         {/* TODO: Add project thumbnail here. */}
                     </div>
@@ -96,7 +96,7 @@ const AcademicProjectsContent = () => {
                 </div>
 
                 {/* PROJECT 3 */}
-                <div className="flex min-w-0 flex-row gap-4 p-4">
+                <div className="flex min-w-0 flex-row gap-4">
                     <div className="w-48 h-27 bg-white rounded-lg shrink-0">
                         {/* TODO: Add project thumbnail here. */}
                     </div>
@@ -130,7 +130,7 @@ const AcademicProjectsContent = () => {
                 </div>
 
                 {/* PROJECT 4 */}
-                <div className="flex min-w-0 flex-row gap-4 p-4">
+                <div className="flex min-w-0 flex-row gap-4">
                     <div className="w-48 h-27 bg-white rounded-lg shrink-0">
                         {/* TODO: Add project thumbnail here. */}
                     </div>
@@ -173,7 +173,7 @@ const AcademicProjectsContent = () => {
                 </div>
 
                 {/* PROJECT 5 */}
-                <div className="flex min-w-0 flex-row gap-4 p-4">
+                <div className="flex min-w-0 flex-row gap-4">
                     <div className="w-48 h-27 bg-white rounded-lg shrink-0">
                         {/* TODO: Add project thumbnail here. */}
                     </div>
@@ -208,7 +208,7 @@ const AcademicProjectsContent = () => {
                 </div>
 
                 {/* PROJECT 6 */}
-                <div className="flex min-w-0 flex-row gap-4 p-4">
+                <div className="flex min-w-0 flex-row gap-4">
                     <div className="w-48 h-27 bg-white rounded-lg shrink-0">
                         {/* TODO: Add project thumbnail here. */}
                     </div>

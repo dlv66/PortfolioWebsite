@@ -2,11 +2,11 @@ import React from 'react';
 
 const AboutContent = () => {
     return (
-        <div className="flex flex-col gap-4 py-4 px-8 text-[#DFDFDF]">
-            <h5 className="font-semibold text-[#F5F5F5] px-4">
+        <div className="flex flex-col gap-4 py-4 text-[#DFDFDF]">
+            <h5 className="text-xl font-semibold text-[#F5F5F5]">
                 ABOUT ME
             </h5>
-            <div className="flex flex-col gap-2 p-4">
+            <div className="flex flex-col gap-2">
                 <p>
                     I am a BS Computer Science graduate from De La Salle University, 
                     specializing in frontend development and UI/UX implementation. 
