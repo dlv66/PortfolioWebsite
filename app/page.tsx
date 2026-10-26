@@ -3,7 +3,7 @@ import Profile from "./components/Profile.jsx";
 import About from "./components/About.jsx";
 import Education from "./components/Education.jsx";
 import Experience from "./components/Experience.jsx";
-import AcademicProjects from "./components/AcademicProjects.jsx";
+import Projects from "./components/Projects.jsx";
 import Skills from "./components/Skills.jsx";
 
 export default function Home() {
@@ -29,7 +29,7 @@ export default function Home() {
         </section>
 
         <section id="projects" className="scroll-mt-28">
-          <AcademicProjects />
+          <Projects />
         </section>
 
         <section id="skills" className="scroll-mt-28">
