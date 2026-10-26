@@ -1,14 +1,16 @@
+import { Switch } from "@/components/ui/switch";
+
 const ProjectsContent = () => {
     return (
         <div className="flex min-w-0 flex-col gap-4 py-4 text-[#DFDFDF]">
-            <div className="flex flex-row ">
+            <div className="flex flex-row gap-2">
 
                 <h5 className="text-xl font-semibold text-[#F5F5F5]">
                     PROJECTS
                 </h5>
 
                 {/* TODO: Add switch, then text after */}
-                {/*<Switch />*/}
+                <Switch />
                 
             </div>
 
