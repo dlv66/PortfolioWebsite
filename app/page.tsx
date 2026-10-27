@@ -5,6 +5,7 @@ import Education from "./components/Education.jsx";
 import Experience from "./components/Experience.jsx";
 import Projects from "./components/Projects.jsx";
 import Skills from "./components/Skills.jsx";
+import Contact from "./components/Contact.jsx";
 
 export default function Home() {
   return (
@@ -34,6 +35,10 @@ export default function Home() {
 
         <section id="skills" className="scroll-mt-28">
           <Skills />
+        </section>
+
+        <section id="contact" className="scroll-mt-28">
+          <Contact />
         </section>
       </div>
     </main>
