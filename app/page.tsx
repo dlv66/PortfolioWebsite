@@ -5,7 +5,7 @@ import Education from "./components/Education.jsx";
 import Experience from "./components/Experience.jsx";
 import Projects from "./components/Projects.jsx";
 import Skills from "./components/Skills.jsx";
-import Contact from "./components/Contact.jsx";
+import End from "./components/End.jsx";
 
 export default function Home() {
   return (
@@ -38,7 +38,7 @@ export default function Home() {
         </section>
 
         <section id="contact" className="scroll-mt-28">
-          <Contact />
+          <End />
         </section>
       </div>
     </main>
