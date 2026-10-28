@@ -1,4 +1,12 @@
 import pisoCakeThumbnail from "../images/project_thumbnails/PisoCAKE thumbnail.png";
+import portfolioWebsiteThumbnail from "../images/project_thumbnails/Portfolio website thumbnail.png";
+
+// import myWanderDiaryThumbnail from "../images/project_thumbnails/My Wander Diary thumbnail.png";
+// import jpdGarageThumbnail from "../images/project_thumbnails/JPD Garage thumbnail.png";
+// import mvxThumbnail from "../images/project_thumbnails/MVX thumbnail.png";
+// import agriguardThumbnail from "../images/project_thumbnails/AgriGuard thumbnail.png";
+// import academicDesignWorksThumbnail from "../images/project_thumbnails/Academic Design Works thumbnail.png";
+
 
 export const projects = [
     {
@@ -47,6 +55,16 @@ export const projects = [
         title: "My Wander Diary - Photo-Journal Android Mobile App",
         description:
             "An Android photo-journal mobile app using Kotlin and Android Studio, supporting the creation, organization, and browsing of travel entries with photos. Co-developed with a project partner.",
+        links: [
+            {
+                label: "GitHub Repository",
+                url: "https://github.com/frncs-dc/MyWanderDiary",
+            },
+            {
+                label: "Figma Prototype",
+                url: "https://www.figma.com/design/aDq7IaAUUOG7Wq34cODnK6/MOBDEVE---MCO-Draft-1?node-id=0-1&t=L3auChL1xoA2ai8L-1",
+            },
+        ],
         technologies: ["Kotlin", "Android Studio", "Figma"],
     },
     {
@@ -85,6 +103,7 @@ export const projects = [
         slug: "portfolio-website",
         category: "personal",
         title: "Portfolio Website",
+        thumbnail: portfolioWebsiteThumbnail,
         description:
             "My responsive portfolio website built with React and Tailwind CSS, showcasing my projects and skills.",
         technologies: ["React", "Next.js", "Tailwind", "Vercel", "Figma"],
