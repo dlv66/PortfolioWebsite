@@ -61,6 +61,17 @@ const Profile = () => {
                         <MdPhone className={iconClassName} />
                     </a>
                 </div>
+
+                {/* Resume/CV Download link */}
+                <div className="flex flex-row items-center gap-4 text-green-100">
+                    <a
+                        href="/downloadables/VILLAMIEL%20Denis%20Leeroi%20-%20Resume%202026.pdf"
+                        download
+                        className="underline hover:text-white transition-colors"
+                    >
+                        Download Resume
+                    </a>
+                </div>
             </div>
 
             <div className="shrink-0">
