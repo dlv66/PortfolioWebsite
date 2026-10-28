@@ -17,7 +17,7 @@ export const projects = [
         subtitle: "(Bachelor's Thesis)",
         description: "A finance-tracking progressive web application (PWA) that enables users to set financial goals, log transactions, and monitor spending. Developed as part of a 4-person thesis team.",
         dates: "May 2024 - July 2025",
-        role: ["UI/UX Designer", "Frontend Engineer"],
+        role: ["Lead UI/UX Designer", "Frontend Engineer"],
         context: "Bachelor's Thesis Project",
         type: "Progressive Web Application (PWA)",
         techstack: ["React", "Supabase", "Vercel"],
@@ -55,6 +55,13 @@ export const projects = [
         title: "My Wander Diary - Photo-Journal Android Mobile App",
         description:
             "An Android photo-journal mobile app using Kotlin and Android Studio, supporting the creation, organization, and browsing of travel entries with photos. Co-developed with a project partner.",
+        dates: "September 2024 - December 2024",
+        role: ["Lead UI/UX Designer", "Software Engineer"],
+        context: "MOBDEVE (Mobile Development) Final Project",
+        type: "Android Mobile App",
+        techstack: ["Kotlin", "Android Studio"],
+        team: "2 members",
+        status: "Feature-complete",
         links: [
             {
                 label: "GitHub Repository",
@@ -65,7 +72,16 @@ export const projects = [
                 url: "https://www.figma.com/proto/aDq7IaAUUOG7Wq34cODnK6/MOBDEVE---MCO-Draft-1?node-id=16-270&t=nQIQRd1LgJVgxmyQ-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=16%3A270&show-proto-sidebar=1",
             },
         ],
+        overview:
+            ["My Wander Diary is an Android photo-journal mobile app that allows users to create, organize, and browse travel entries with photos.",
+            "As part of a 2-member team, I spearheaded the UI/UX design and frontend development of the mobile app."],
         technologies: ["Kotlin", "Android Studio", "Figma"],
+        concepts: ["Android Studio Development", "Wireframing", "User Flows", "Interactive Prototyping"],
+        process:
+            ["We submitted a project proposal to our professor, outlining the app's purpose, features, and technical requirements.",
+            "After receiving approval, we worked on the low-fidelity prototypes of the app using Figma, discussing how the user should be onboarded into the app, as well as how each function should be implemented within the app.",
+            "After finalizing the low-fidelity prototypes, we proceeded to create the high-fidelity prototype, which we then implemented in Android Studio using Kotlin, following the designs and user flows we had created."
+            ],
     },
     {
         slug: "jpd-garage",
@@ -73,6 +89,13 @@ export const projects = [
         title: "JPD Garage Online Management System",
         description:
             "A web-based finance and inventory management system for a motorcycle parts business in Laguna. Co-developed as part of a 9-person team.",
+        dates: "September 2023 - April 2024",
+        role: ["Lead UI/UX Designer", "Frontend Engineer"],
+        context: "CSSWENG (Software Engineering) Course Project",
+        type: "Website",
+        techstack: ["JavaScript", "React", "Bootstrap"],
+        team: "9 members",
+        status: "Feature-complete",
         links: [
             {
                 label: "GitHub Repository",
@@ -91,17 +114,24 @@ export const projects = [
         title: "MVX - Music Rating & Review Website",
         description:
             "A full-stack MVP web application built with a 3-person team, allowing users to browse, rate, and review songs, albums, and artists.",
+        dates: "January 2023 - April 2023",
+        role: ["UI/UX Designer", "Frontend Engineer"],
+        context: "CCAPDEV (Web Application Development) Course Project",
+        type: "Website",
+        techstack: ["Bootstrap", "Node.js", "Express.js", "MongoDB"],
+        team: "3 members",
+        status: "Feature-complete",
         links: [
             {
                 label: "GitHub Repository",
                 url: "https://github.com/dlv66/MVX-Music-Review-CCAPDEV-MCO",
             },
             {
-                label: "Canva Prototype",
-                url: "",
+                label: "Prototype Designs",
+                url: "https://drive.google.com/file/d/1PUSgo5o4MlMbpxYVfXV-JWv_5vCrqFGF/view?usp=sharing",
             },
         ],
-        technologies: ["HTML", "CSS", "EJS", "Express.js", "Node.js", "MongoDB", "Canva"],
+        technologies: ["HTML", "CSS3", "EJS", "JavaScript", "Bootstrap", "Node.js", "Express.js", "MongoDB", "Mongoose", "Canva"],
     },
     {
         slug: "agriguard",
@@ -109,6 +139,19 @@ export const projects = [
         title: "AgriGuard - Farmer & Fisherfolk Support Mobile App Prototype",
         description:
             "A mobile app prototype focused on economic resilience and disaster preparedness for Filipino farmers and fisherfolk, created as part of a 4-person team.",
+        dates: "May 2025 - August 2025",
+        role: ["Lead UI/UX Designer", "Researcher"],
+        context: "CCINOV8 (Innovation and Technology Management) Course Project",
+        type: "Prototype Mobile App",
+        techstack: ["Figma"],
+        team: "5 members",
+        status: "Feature-complete prototype",
+        links: [
+            {
+                label: "Figma Prototype",
+                url: "https://www.figma.com/proto/3LZA5I1E50jQ0g6SNtacxO/AgriGuard---Minimum-Viable-Prototype?node-id=243-675&t=jGTxTYbXGcge9K7V-1&scaling=scale-down&content-scaling=fixed&page-id=243%3A674&starting-point-node-id=243%3A675&show-proto-sidebar=1",
+            },
+        ],
         technologies: ["Figma"],
     },
     {
@@ -117,6 +160,12 @@ export const projects = [
         title: "Food360 - Sustainable Food Management App Prototype",
         description:
             "A mobile app prototype designed to help Filipino families manage their home food stocks and consumption, developed as part of a X-person team.",
+        links: [
+            {
+                label: "Figma Prototype",
+                url: "https://www.figma.com/proto/KvVyGA37hGxredGt268Lvt/STHCIUX---MCO2---Protoyping--Copy-?node-id=1-2&t=WvZ4aeuHghuUBjXW-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2",
+            },
+        ],
         technologies: ["Figma"],
     },
     {
@@ -134,6 +183,27 @@ export const projects = [
         thumbnail: portfolioWebsiteThumbnail,
         description:
             "My responsive portfolio website built with React and Tailwind CSS, showcasing my projects and skills.",
+        dates: "",
+        role: ["Frontend Developer", "UI/UX Designer"],
+        context: "Personal Portfolio",
+        type: "Responsive Website",
+        techstack: ["React", "Next.js", "Tailwind", "Vercel"],
+        team: "Sole developer",
+        status: "Work-in-progress",
+        links: [
+            {
+                label: "GitHub Repository",
+                url: "https://github.com/dlv66/PortfolioWebsite",
+            },
+            {
+                label: "Figma Prototype",
+                url: "https://www.figma.com/proto/9HZ3hTSDEB7VKEmQCKR2n1/Thesis-App-Wireframe-Designs?node-id=356-17803&p=f&t=yb7RxfZtJBNE3JrI-1&scaling=min-zoom&content-scaling=fixed&page-id=46%3A228&starting-point-node-id=356%3A17803&show-proto-sidebar=1",
+            },  
+            {
+                label: "Live Website",
+                url: "https://leeroiv.dev",
+            }
+        ],
         technologies: ["React", "Next.js", "Tailwind", "Vercel", "Figma"],
     },
     {
