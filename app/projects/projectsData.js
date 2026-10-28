@@ -30,7 +30,7 @@ export const projects = [
             },
             {
                 label: "Figma Prototype",
-                url: "https://www.figma.com/design/9HZ3hTSDEB7VKEmQCKR2n1/Thesis-App-Wireframe-Designs?node-id=46-228&t=dxSPkRomKNkCSg4a-1",
+                url: "https://www.figma.com/proto/9HZ3hTSDEB7VKEmQCKR2n1/Thesis-App-Wireframe-Designs?node-id=356-17803&p=f&t=yb7RxfZtJBNE3JrI-1&scaling=min-zoom&content-scaling=fixed&page-id=46%3A228&starting-point-node-id=356%3A17803&show-proto-sidebar=1",
             },
             {
                 label: "Video Presentation",
@@ -62,7 +62,7 @@ export const projects = [
             },
             {
                 label: "Figma Prototype",
-                url: "https://www.figma.com/design/aDq7IaAUUOG7Wq34cODnK6/MOBDEVE---MCO-Draft-1?node-id=0-1&t=L3auChL1xoA2ai8L-1",
+                url: "https://www.figma.com/proto/aDq7IaAUUOG7Wq34cODnK6/MOBDEVE---MCO-Draft-1?node-id=16-270&t=nQIQRd1LgJVgxmyQ-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=16%3A270&show-proto-sidebar=1",
             },
         ],
         technologies: ["Kotlin", "Android Studio", "Figma"],
@@ -73,6 +73,16 @@ export const projects = [
         title: "JPD Garage Online Management System",
         description:
             "A web-based finance and inventory management system for a motorcycle parts business in Laguna. Co-developed as part of a 9-person team.",
+        links: [
+            {
+                label: "GitHub Repository",
+                url: "https://github.com/briangabini/CSSWENG-IMS",
+            },
+            {
+                label: "Figma Prototype",
+                url: "https://www.figma.com/proto/kaXc82UqQPUg6YVhUMMfkh/Motorcycle-Shop-Inventory-Web-App?node-id=4-38&t=zANz08E0U7j1GUSD-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A38"
+            },
+        ],
         technologies: ["JavaScript", "React", "Bootstrap", "Figma"],
     },
     {
@@ -81,6 +91,16 @@ export const projects = [
         title: "MVX - Music Rating & Review Website",
         description:
             "A full-stack MVP web application built with a 3-person team, allowing users to browse, rate, and review songs, albums, and artists.",
+        links: [
+            {
+                label: "GitHub Repository",
+                url: "https://github.com/dlv66/MVX-Music-Review-CCAPDEV-MCO",
+            },
+            {
+                label: "Canva Prototype",
+                url: "",
+            },
+        ],
         technologies: ["HTML", "CSS", "EJS", "Express.js", "Node.js", "MongoDB", "Canva"],
     },
     {
@@ -89,6 +109,14 @@ export const projects = [
         title: "AgriGuard - Farmer & Fisherfolk Support Mobile App Prototype",
         description:
             "A mobile app prototype focused on economic resilience and disaster preparedness for Filipino farmers and fisherfolk, created as part of a 4-person team.",
+        technologies: ["Figma"],
+    },
+    {
+        slug: "food360",
+        category: "academic",
+        title: "Food360 - Sustainable Food Management App Prototype",
+        description:
+            "A mobile app prototype designed to help Filipino families manage their home food stocks and consumption, developed as part of a X-person team.",
         technologies: ["Figma"],
     },
     {
