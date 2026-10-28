@@ -50,6 +50,36 @@ export const projects = [
             "After the PWA reached a feature-complete state, the team conducted a 2-week user field study to evaluate real-world usability and financial tracking effectiveness."],
     },
     {
+        slug: "portfolio-website",
+        category: "personal",
+        title: "Portfolio Website",
+        thumbnail: portfolioWebsiteThumbnail,
+        description:
+            "My responsive portfolio website built with React and Tailwind CSS, showcasing my projects and skills.",
+        dates: "",
+        role: ["Frontend Developer", "UI/UX Designer"],
+        context: "Personal Portfolio",
+        type: "Responsive Website",
+        techstack: ["React", "Next.js", "Tailwind", "Vercel"],
+        team: "Sole developer",
+        status: "Work-in-progress",
+        links: [
+            {
+                label: "GitHub Repository",
+                url: "https://github.com/dlv66/PortfolioWebsite",
+            },
+            {
+                label: "Figma Prototype",
+                url: "https://www.figma.com/proto/9HZ3hTSDEB7VKEmQCKR2n1/Thesis-App-Wireframe-Designs?node-id=356-17803&p=f&t=yb7RxfZtJBNE3JrI-1&scaling=min-zoom&content-scaling=fixed&page-id=46%3A228&starting-point-node-id=356%3A17803&show-proto-sidebar=1",
+            },  
+            {
+                label: "Live Website",
+                url: "https://leeroiv.dev",
+            }
+        ],
+        technologies: ["React", "Next.js", "Tailwind", "Vercel", "Figma"],
+    },
+    {
         slug: "my-wander-diary",
         category: "academic",
         title: "My Wander Diary - Photo-Journal Android Mobile App",
@@ -93,7 +123,7 @@ export const projects = [
         role: ["Lead UI/UX Designer", "Frontend Engineer"],
         context: "CSSWENG (Software Engineering) Course Project",
         type: "Website",
-        techstack: ["JavaScript", "React", "Bootstrap"],
+        techstack: ["Need", "To", "Double-Check"],
         team: "9 members",
         status: "Feature-complete",
         links: [
@@ -106,6 +136,9 @@ export const projects = [
                 url: "https://www.figma.com/proto/kaXc82UqQPUg6YVhUMMfkh/Motorcycle-Shop-Inventory-Web-App?node-id=4-38&t=zANz08E0U7j1GUSD-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A38"
             },
         ],
+        overview:
+            ["JPDGarage is a web-based finance and inventory management system for JPDGarage, a motorcycle parts business in Siniloan, Laguna, Philippines.",
+            "As part of a 9-member team, I led the UI/UX design, and worked on frontend development of the web application."],
         technologies: ["JavaScript", "React", "Bootstrap", "Figma"],
     },
     {
@@ -131,6 +164,10 @@ export const projects = [
                 url: "https://drive.google.com/file/d/1PUSgo5o4MlMbpxYVfXV-JWv_5vCrqFGF/view?usp=sharing",
             },
         ],
+        overview:
+            ["MVX is a web-based music review and discovery platform that allows users to browse, rate, and review different songs, albums, and artists.",
+            "As part of a 3-member team, I led the UI/UX design, and worked on frontend development of the web application. I also occasionally helped with database implementation.",
+            "MVX was the first full-stack project I worked on in university, where my co-developers and I designed and built a complete web application from the ground up."],
         technologies: ["HTML", "CSS3", "EJS", "JavaScript", "Bootstrap", "Node.js", "Express.js", "MongoDB", "Mongoose", "Canva"],
     },
     {
@@ -152,6 +189,9 @@ export const projects = [
                 url: "https://www.figma.com/proto/3LZA5I1E50jQ0g6SNtacxO/AgriGuard---Minimum-Viable-Prototype?node-id=243-675&t=jGTxTYbXGcge9K7V-1&scaling=scale-down&content-scaling=fixed&page-id=243%3A674&starting-point-node-id=243%3A675&show-proto-sidebar=1",
             },
         ],
+        overview:
+            ["AgriGuard is a mobile app prototype specially focused on providing a direct-to-consumer marketplace to Filipino agricultural workers, while also promoting economic resilience & disaster preparedness.",
+            "As part of a 5-member team, I led the application's UI/UX design, basing design decisions from user research and data collected collaboratively with my teammates."],
         technologies: ["Figma"],
     },
     {
@@ -159,13 +199,23 @@ export const projects = [
         category: "academic",
         title: "Food360 - Sustainable Food Management App Prototype",
         description:
-            "A mobile app prototype designed to help Filipino families manage their home food stocks and consumption, developed as part of a X-person team.",
+            "A mobile app prototype designed to help Filipino families manage their home food stocks and consumption, developed as part of a 7-person team.",
+        dates: "May 2025 - August 2025",
+        role: ["Lead UI/UX Designer", "Researcher"],
+        context: "STHCIUX (Human-Computer Interactions and User Experience) Course Project",
+        type: "Prototype Mobile App",
+        techstack: ["Figma"],
+        team: "7 members",
+        status: "Feature-complete prototype",    
         links: [
             {
                 label: "Figma Prototype",
                 url: "https://www.figma.com/proto/KvVyGA37hGxredGt268Lvt/STHCIUX---MCO2---Protoyping--Copy-?node-id=1-2&t=WvZ4aeuHghuUBjXW-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2",
             },
         ],
+        overview:
+            ["Food360 is a mobile app prototype designed to help Filipino families manage their home food stocks and consumption.",
+            "As part of a 7-member team, I led the application's UI/UX design, basing design decisions from user research and data collected collaboratively with my teammates."],
         technologies: ["Figma"],
     },
     {
@@ -175,36 +225,6 @@ export const projects = [
         description:
             "A compilation of design works created for the fulfillment of different academic course requirements in college.",
         technologies: ["Canva"],
-    },
-    {
-        slug: "portfolio-website",
-        category: "personal",
-        title: "Portfolio Website",
-        thumbnail: portfolioWebsiteThumbnail,
-        description:
-            "My responsive portfolio website built with React and Tailwind CSS, showcasing my projects and skills.",
-        dates: "",
-        role: ["Frontend Developer", "UI/UX Designer"],
-        context: "Personal Portfolio",
-        type: "Responsive Website",
-        techstack: ["React", "Next.js", "Tailwind", "Vercel"],
-        team: "Sole developer",
-        status: "Work-in-progress",
-        links: [
-            {
-                label: "GitHub Repository",
-                url: "https://github.com/dlv66/PortfolioWebsite",
-            },
-            {
-                label: "Figma Prototype",
-                url: "https://www.figma.com/proto/9HZ3hTSDEB7VKEmQCKR2n1/Thesis-App-Wireframe-Designs?node-id=356-17803&p=f&t=yb7RxfZtJBNE3JrI-1&scaling=min-zoom&content-scaling=fixed&page-id=46%3A228&starting-point-node-id=356%3A17803&show-proto-sidebar=1",
-            },  
-            {
-                label: "Live Website",
-                url: "https://leeroiv.dev",
-            }
-        ],
-        technologies: ["React", "Next.js", "Tailwind", "Vercel", "Figma"],
     },
     {
         slug: "cassette-mixtape-inlay-designs",
