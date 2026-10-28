@@ -1,8 +1,11 @@
+import pisoCakeThumbnail from "../images/project_thumbnails/PisoCAKE thumbnail.png";
+
 export const projects = [
     {
         slug: "pisocake",
         category: "academic",
         title: "PisoCAKE - Finance Tracking PWA",
+        thumbnail: pisoCakeThumbnail,
         subtitle: "(Bachelor's Thesis)",
         description: "A finance-tracking progressive web application (PWA) that enables users to set financial goals, log transactions, and monitor spending. Developed as part of a 4-person thesis team.",
         dates: "May 2024 - July 2025",
@@ -12,7 +15,20 @@ export const projects = [
         techstack: ["React", "Supabase", "Vercel"],
         team: "4 members",
         status: "Feature-complete",
-        links: [""],
+        links: [
+            {
+                label: "GitHub Repository",
+                url: "https://github.com/CarlMatthewVerano/THS-ST-PisoCAKE",
+            },
+            {
+                label: "Figma Prototype",
+                url: "https://www.figma.com/design/9HZ3hTSDEB7VKEmQCKR2n1/Thesis-App-Wireframe-Designs?node-id=46-228&t=dxSPkRomKNkCSg4a-1",
+            },
+            {
+                label: "Video Presentation",
+                url: "https://www.youtube.com/watch?v=G_0gqIT8K3M",
+            },
+        ],
         overview:
             ["PisoCAKE is a finance-tracking progressive web application (PWA) that enabled users to set financial goals, log transactions, and monitor spending.",
             "As part of a thesis team, I led the end-to-end UI/UX design and iterative prototyping, producing high-fidelity prototypes and translating them into a production-ready frontend.",
