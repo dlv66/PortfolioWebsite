@@ -6,9 +6,9 @@ import profileImage from '../images/IMG_7242.png';
 
 const contacts = {
     github: 'https://github.com/dlv66',
-    linkedin: 'https://www.linkedin.com/in/denis-leeroi-villamiel/', // TODO: add your LinkedIn username
-    email: 'mailto:ofl.denisleeroivillamiel@gmail.com', // TODO: add your email, e.g. mailto:you@example.com
-    phone: 'tel:+639285111187', // TODO: add your phone, e.g. tel:+639171234567
+    linkedin: 'https://www.linkedin.com/in/denis-leeroi-villamiel/',
+    email: 'mailto:ofl.denisleeroivillamiel@gmail.com', 
+    phone: 'tel:+639285111187', 
 };
 
 const iconClassName =

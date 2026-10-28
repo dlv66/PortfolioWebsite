@@ -222,7 +222,7 @@ const SkillsContent = () => {
                             </div>
                             <div className="flex flex-row gap-4 items-center">
                                 <Image src={vsCodeImage} alt="Visual Studio Code Logo" width={60} height={60} className="rounded-xl bg-white p-2 object-contain" />
-                                <p> VS Code </p>
+                                <p> Visual Studio Code </p>
                             </div>
                             <div className="flex flex-row gap-4 items-center">
                                 <Image src={androidStudioImage} alt="Android Studio Logo" width={60} height={60} className="rounded-xl bg-gray-900 p-2 object-contain" />
