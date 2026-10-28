@@ -63,11 +63,11 @@ const EndContent = () => {
                                 </a>
                             </div>
             <div>
-                <p className="pt-32 pb-2 text-[#D1D1D1]">
+                <p className="pt-32 text-[#D1D1D1]">
                     Designed in Figma, implemented in Visual Studio Code.
                 </p>
                 <p className="text-[#D1D1D1]">
-                    Built with Next.js and Tailwind CSS, deployed with (INSERT DEPLOYMENT PLATFORM HERE).
+                    Built with Next.js and Tailwind CSS, deployed with Vercel.
                 </p>
             </div>
 
