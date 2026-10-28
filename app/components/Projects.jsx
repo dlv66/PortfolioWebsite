@@ -1,13 +1,14 @@
+import React from "react";
+import { FaArrowRight } from "react-icons/fa";
+
 const ProjectsContent = () => {
     return (
         <div className="flex min-w-0 flex-col gap-4 py-4 text-[#DFDFDF]">
             <div className="flex flex-row gap-2">
-                {/* TODO:  */}
                 <h5 className="text-xl font-semibold text-[#F5F5F5]">
                     PROJECTS
                 </h5>
 
-                {/* TODO:  View All Projects*/}
             </div>
 
             {/* TODO: Make all projects hoverable and clickable to lead to the specific project page. */}
@@ -15,22 +16,23 @@ const ProjectsContent = () => {
             <div className="flex flex-col gap-8">
                 
                 {/* PROJECT 1 - PisoCAKE Thesis*/}
-                <div className="flex min-w-0 flex-row gap-8">
-                    <div className="w-80 h-45 bg-white rounded-lg shrink-0">
+                <div className="group flex min-w-0 flex-row gap-8 hover:bg-black/18 transition-colors rounded-xl p-4">
+                    <div className="w-80 h-45 bg-white rounded-lg shrink-0 group-hover:bg-black/10 transition-colors">
                         {/* TODO: Add project thumbnail here. Make hover effect that darken screens and allows click to lead to project details*/}
                     </div>
 
-                    <div className="flex min-w-0 flex-col gap-2">
-                        <div className="flex min-w-0 flex-row gap-2 items-center">
-                            <div className="flex min-w-0 flex-row gap-2 items-center">
+                    <div className="flex min-w-0 flex-1 flex-col gap-2">
+                        <div className="flex w-full min-w-0 flex-row items-center gap-2">
+
+                            <div className="flex min-w-0 flex-row items-center gap-2">
                                 <h6 className="font-semibold wrap-break-word text-[#F5F5F5]">
                                     PisoCAKE - Finance Tracking PWA
                                 </h6>
                                 <p className="italic text-[#F5F5F5]">(Bachelor's Thesis)</p>
                             </div>
-                            <div>
-                                {/* TODO: Add ARROW icon here that will lead to the specific project page. */}
-                            </div>
+
+                            {/* Right arrow to denote clickability */}
+                            <FaArrowRight className="shrink-0 text-[#F5F5F5] transition-transform duration-300 ease-out group-hover:translate-x-4 group-hover:text-green-300" />
                         </div>
                         
                         <p>
@@ -38,7 +40,7 @@ const ProjectsContent = () => {
                             log transactions, and monitor spending. Co-developed as a thesis project in a 4-person team.
                         </p>
 
-                        {/* TODO: Add technologies used in the project here. */}
+                        {/* Technologies used in the project */}
                         <div className="flex flex-wrap gap-2 pt-2">
                             {[
                                 "TypeScript",
@@ -59,7 +61,7 @@ const ProjectsContent = () => {
                 </div>
 
                 {/* PROJECT 2 - My Wander Diary */}
-                <div className="flex min-w-0 flex-row gap-8">
+                <div className="group flex min-w-0 flex-row gap-8 hover:bg-black/18 transition-colors rounded-xl p-4">
                     <div className="w-80 h-45 bg-white rounded-lg shrink-0">
                         {/* TODO: Add project thumbnail here. */}
                     </div>
@@ -72,6 +74,9 @@ const ProjectsContent = () => {
                             <div>
                                 {/* TODO: Add ARROW icon here that will lead to the specific project page. */}
                             </div>
+
+                            {/* Right arrow to denote clickability */}
+                            <FaArrowRight className="shrink-0 text-[#F5F5F5] transition-transform duration-300 ease-out group-hover:translate-x-4 group-hover:text-green-300" />
                         </div>
                         
                         <p>
@@ -80,7 +85,7 @@ const ProjectsContent = () => {
                         with photos. Co-developed with a project partner.
                         </p>
 
-                        {/* TODO: Add technologies used in the project here. */}
+                        {/* TTechnologies used in the project */}
                         <div className="flex flex-wrap gap-2 pt-2">
                             {[
                                 "Kotlin",
@@ -99,7 +104,7 @@ const ProjectsContent = () => {
                 </div>
 
                 {/* PROJECT 3 - JPD Garage Online Management System */}
-                <div className="flex min-w-0 flex-row gap-8">
+                <div className="group flex min-w-0 flex-row gap-8 hover:bg-black/18 transition-colors rounded-xl p-4">
                     <div className="w-80 h-45 bg-white rounded-lg shrink-0">
                         {/* TODO: Add project thumbnail here. */}
                     </div>
@@ -109,9 +114,8 @@ const ProjectsContent = () => {
                             <h6 className="font-semibold wrap-break-word text-[#F5F5F5]">
                                 JPD Garage Online Management System
                             </h6>
-                            <div>
-                                {/* TODO: Add ARROW icon here that will lead to the specific project page. */}
-                            </div>
+                            {/* Right arrow to denote clickability */}
+                            <FaArrowRight className="shrink-0 text-[#F5F5F5] transition-transform duration-300 ease-out group-hover:translate-x-4 group-hover:text-green-300" />
                         </div>
 
                         <p>
@@ -119,6 +123,7 @@ const ProjectsContent = () => {
                             parts business in Laguna. Co-developed as part of a 9-person team.
                         </p>
 
+                        {/* Technologies used in the project */}
                         <div className="flex flex-wrap gap-2 pt-2">
                             {["JavaScript", "React", "Bootstrap", "Figma"].map((tech) => (
                                 <span
@@ -133,7 +138,7 @@ const ProjectsContent = () => {
                 </div>
 
                 {/* PROJECT 4 - PORTFOLIO WEBSITE */}
-                <div className="flex min-w-0 flex-row gap-8">
+                <div className="flex min-w-0 flex-row gap-8 hover:bg-black/18 transition-colors rounded-xl p-4">
                     <div className="w-80 h-45 bg-white rounded-lg shrink-0">
                         {/* TODO: Add project thumbnail here. */}
                     </div>
@@ -145,16 +150,15 @@ const ProjectsContent = () => {
                                     Portfolio Website
                                 </h6>
                             </div>
-                            <div>
-                                {/* TODO: Add ARROW icon here that will lead to the specific project page. */}
-                            </div>
+                            {/* Right arrow to denote clickability */}
+                            <FaArrowRight className="shrink-0 text-[#F5F5F5] transition-transform duration-300 ease-out group-hover:translate-x-4 group-hover:text-green-300" />
                         </div>
                         
                         <p>
                             My responsive portfolio website built with React and Tailwind CSS, showcasing my projects and skills.
                         </p>
 
-                        {/* TODO: Add technologies used in the project here. */}
+                        {/* TTechnologies used in the project */}
                         <div className="flex flex-wrap gap-2 pt-2">
                             {[
                                 "TypeScript",
