@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { MdEmail, MdPhone } from 'react-icons/md';
-import profileImage from '../images/IMG_7242.png';
+import profileImage from '../images/Leeroi ID Photo.png';
 
 const contacts = {
     github: 'https://github.com/dlv66',
