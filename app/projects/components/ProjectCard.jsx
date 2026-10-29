@@ -8,7 +8,7 @@ export default function ProjectCard({ project }) {
             href={`/projects/${project.slug}`}
             className="group flex min-w-0 flex-row gap-8 rounded-xl p-4 transition-colors hover:bg-black/18 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#4EFF9E]"
         >
-            <div className="relative h-45 w-80 shrink-0 overflow-hidden rounded-lg bg-white transition-colors group-hover:bg-black/10">
+            <div className="relative h-45 w-80 shrink-0 overflow-hidden rounded-lg transition-colors group-hover:bg-black/10">
                 {project.thumbnail && (
                     <Image
                         src={project.thumbnail}

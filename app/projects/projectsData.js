@@ -1,10 +1,10 @@
 import pisoCakeThumbnail from "../images/project_thumbnails/PisoCAKE thumbnail.png";
 import portfolioWebsiteThumbnail from "../images/project_thumbnails/Portfolio website thumbnail.png";
-
-// import myWanderDiaryThumbnail from "../images/project_thumbnails/My Wander Diary thumbnail.png";
-// import jpdGarageThumbnail from "../images/project_thumbnails/JPD Garage thumbnail.png";
-// import mvxThumbnail from "../images/project_thumbnails/MVX thumbnail.png";
-// import agriguardThumbnail from "../images/project_thumbnails/AgriGuard thumbnail.png";
+import myWanderDiaryThumbnail from "../images/project_thumbnails/My Wander Diary thumbnail.png";
+import jpdGarageThumbnail from "../images/project_thumbnails/JPDGarage thumbnail.png";
+import mvxThumbnail from "../images/project_thumbnails/MVX thumbnail.png";
+import agriguardThumbnail from "../images/project_thumbnails/AgriGuard thumbnail.png";
+import food360thumbnail from "../images/project_thumbnails/Food360 thumbnail.png";
 // import academicDesignWorksThumbnail from "../images/project_thumbnails/Academic Design Works thumbnail.png";
 
 
@@ -83,6 +83,7 @@ export const projects = [
         slug: "my-wander-diary",
         category: "academic",
         title: "My Wander Diary - Photo-Journal Android Mobile App",
+        thumbnail: myWanderDiaryThumbnail,
         description:
             "An Android photo-journal mobile app using Kotlin and Android Studio, supporting the creation, organization, and browsing of travel entries with photos. Co-developed with a project partner.",
         dates: "September 2024 - December 2024",
@@ -116,7 +117,8 @@ export const projects = [
     {
         slug: "jpd-garage",
         category: "academic",
-        title: "JPD Garage Online Management System",
+        title: "JPDGarage Online Management System",
+        thumbnail: jpdGarageThumbnail,
         description:
             "A web-based finance and inventory management system for a motorcycle parts business in Laguna. Co-developed as part of a 9-person team.",
         dates: "September 2023 - April 2024",
@@ -145,6 +147,7 @@ export const projects = [
         slug: "mvx",
         category: "academic",
         title: "MVX - Music Rating & Review Website",
+        thumbnail: mvxThumbnail,
         description:
             "A full-stack MVP web application built with a 3-person team, allowing users to browse, rate, and review songs, albums, and artists.",
         dates: "January 2023 - April 2023",
@@ -174,6 +177,7 @@ export const projects = [
         slug: "agriguard",
         category: "academic",
         title: "AgriGuard - Farmer & Fisherfolk Support Mobile App Prototype",
+        thumbnail: agriguardThumbnail,
         description:
             "A mobile app prototype focused on economic resilience and disaster preparedness for Filipino farmers and fisherfolk, created as part of a 4-person team.",
         dates: "May 2025 - August 2025",
@@ -198,6 +202,7 @@ export const projects = [
         slug: "food360",
         category: "academic",
         title: "Food360 - Sustainable Food Management App Prototype",
+        thumbnail: food360thumbnail,
         description:
             "A mobile app prototype designed to help Filipino families manage their home food stocks and consumption, developed as part of a 7-person team.",
         dates: "May 2025 - August 2025",
