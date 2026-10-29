@@ -79,8 +79,9 @@ export default function ProjectDetail({ project }) {
                                                 <li key={link.url}>
                                                     <a
                                                         href={link.url}
-                                                        target="_blank"
-                                                        rel="noopener noreferrer"
+                                                        download={link.download}
+                                                        target={link.download ? undefined : "_blank"}
+                                                        rel={link.download ? undefined : "noopener noreferrer"}
                                                         className="underline underline-offset-2 hover:text-white"
                                                     >
                                                         {link.label}

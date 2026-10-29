@@ -36,6 +36,11 @@ export const projects = [
                 label: "Video Presentation",
                 url: "https://www.youtube.com/watch?v=G_0gqIT8K3M",
             },
+            {
+                label: "User Manual",
+                url: "/downloadables/HXIL - User Manual - Dela Cruz et al. - PisoCAKE.pdf",
+                download: true,
+            },
         ],
         overview:
             ["PisoCAKE is a finance-tracking progressive web application (PWA) that enabled users to set financial goals, log transactions, and monitor spending.",
@@ -102,6 +107,11 @@ export const projects = [
                 label: "Figma Prototype",
                 url: "https://www.figma.com/proto/aDq7IaAUUOG7Wq34cODnK6/MOBDEVE---MCO-Draft-1?node-id=16-270&t=nQIQRd1LgJVgxmyQ-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=16%3A270&show-proto-sidebar=1",
             },
+            {
+                label: "Proposal Document",
+                url: "/downloadables/MOBDEVE MCO Proposal (Revised) - My Wander Diary - Dela Cruz and Villamiel.pdf",
+                download: true,
+            },
         ],
         overview:
             ["My Wander Diary is an Android photo-journal mobile app that allows users to create, organize, and browse travel entries with photos.",
@@ -125,7 +135,7 @@ export const projects = [
         role: ["Lead UI/UX Designer", "Frontend Engineer"],
         context: "CSSWENG (Software Engineering) Course Project",
         type: "Website",
-        techstack: ["Need", "To", "Double-Check"],
+        techstack: ["MongoDB", "Express.js", "React", "Node.js"],
         team: "9 members",
         status: "Feature-complete",
         links: [
@@ -134,9 +144,15 @@ export const projects = [
                 url: "https://github.com/briangabini/CSSWENG-IMS",
             },
             {
-                label: "Figma Prototype",
-                url: "https://www.figma.com/proto/kaXc82UqQPUg6YVhUMMfkh/Motorcycle-Shop-Inventory-Web-App?node-id=4-38&t=zANz08E0U7j1GUSD-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A38"
+                label: "Figma Canvas",
+                url: "https://www.figma.com/design/stJhHOiADNOs09DfryiZyt/Motorcycle-Shop-Inventory-Web-App--Redacted-Copy-?node-id=0-1&t=JZXtFhobYkGkvonA-1"
             },
+            {
+                label: "Handover Document",
+                url: "/downloadables/JPDGarage - Online Management System.pdf",
+                download: true,
+            },
+            
         ],
         overview:
             ["JPDGarage is a web-based finance and inventory management system for JPDGarage, a motorcycle parts business in Siniloan, Laguna, Philippines.",
@@ -192,6 +208,11 @@ export const projects = [
                 label: "Figma Prototype",
                 url: "https://www.figma.com/proto/3LZA5I1E50jQ0g6SNtacxO/AgriGuard---Minimum-Viable-Prototype?node-id=243-675&t=jGTxTYbXGcge9K7V-1&scaling=scale-down&content-scaling=fixed&page-id=243%3A674&starting-point-node-id=243%3A675&show-proto-sidebar=1",
             },
+            {
+                label: "Business Pitch Slides",
+                url: "/downloadables/CCINOV8 AgriGuard Business Pitch Slides.pdf",
+                download: true,
+            },
         ],
         overview:
             ["AgriGuard is a mobile app prototype specially focused on providing a direct-to-consumer marketplace to Filipino agricultural workers, while also promoting economic resilience & disaster preparedness.",
@@ -216,6 +237,16 @@ export const projects = [
             {
                 label: "Figma Prototype",
                 url: "https://www.figma.com/proto/KvVyGA37hGxredGt268Lvt/STHCIUX---MCO2---Protoyping--Copy-?node-id=1-2&t=WvZ4aeuHghuUBjXW-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2",
+            },
+            {
+                label: "Needfinding Report",
+                url: "/downloadables/STHCIUX Needfinding Report.pdf",
+                download: true,
+            },
+            {
+                label: "Design Portfolio Document",
+                url: "/downloadables/STHCIUX - MCO2 - Design Portfolio - Final.pdf",
+                download: true,
             },
         ],
         overview:
