@@ -56,7 +56,7 @@ export const projects = [
     },
     {
         slug: "portfolio-website",
-        category: "personal",
+        category: "featured",
         title: "Portfolio Website",
         thumbnail: portfolioWebsiteThumbnail,
         description:
