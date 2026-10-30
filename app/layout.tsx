@@ -10,6 +10,12 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Leeroi Villamiel - Portfolio",
   description: "Portfolio website showcasing my professional and personal work",
+  openGraph: {
+    title: "Leeroi Villamiel - Portfolio",
+    description: "Portfolio website by Denis Leeroi Villamiel",
+    url: "https://leeroiv.dev",
+    images: ["https://leeroiv.dev/Portfolio%20website%20thumbnail.png"],
+  },
 };
 
 export default function RootLayout({
