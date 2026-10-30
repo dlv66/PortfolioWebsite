@@ -16,9 +16,9 @@ const EndContent = () => {
     return (
         <div className="flex flex-col py-8 text-[#DFDFDF] [&_img]:size-[60px] [&_img]:shrink-0">
             <h5 className="text-xl font-semibold text-[#F5F5F5]">
-                Let's work together.
+                Let&apos;s work together.
             </h5>
-            <p className="pt-4 pb-8"> I'm currently looking for work and would love to hear from you. Feel free to reach out through any of the channels below.</p>
+            <p className="pt-4 pb-8"> I&apos;m currently looking for work and would love to hear from you. Feel free to reach out through any of the channels below.</p>
             
             {/* Social Media / Contact Information */}
                             <div className="flex flex-row gap-8 justify-center">

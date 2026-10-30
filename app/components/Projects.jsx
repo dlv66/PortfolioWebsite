@@ -45,7 +45,7 @@ const ProjectsContent = () => {
                                 <h6 className="font-semibold wrap-break-word text-[#F5F5F5]">
                                     PisoCAKE - Finance Tracking PWA
                                 </h6>
-                                <p className="italic text-[#F5F5F5]">(Bachelor's Thesis)</p>
+                                <p className="italic text-[#F5F5F5]">(Bachelor&apos;s Thesis)</p>
                             </div>
 
                             {/* Right arrow to denote clickability */}
@@ -236,12 +236,12 @@ const ProjectsContent = () => {
 
             <div className="mt-2 flex justify-end">
                 <div className="flex rounded-xl px-4 py-2 hover:bg-black/18 hover:text-[#8df0ba] transition-colors">
-                    <a 
+                    <Link 
                         href="/projects" 
                         className="inline-flex items-center gap-2"
                     >
                         View More Projects <span className="text-sm font-semibold">→</span>
-                    </a>
+                    </Link>
                 </div>
             </div>
 
