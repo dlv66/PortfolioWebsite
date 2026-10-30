@@ -293,13 +293,6 @@ export const projects = [
             "A compilation of playlist covers inspired by the design language of Spotify's official playlist covers.",
         technologies: ["Canva"],
     },
-    {
-        slug: "other-design-works",
-        category: "personal",
-        title: "Other Design Works",
-        description: "A compilation of other design works.",
-        technologies: ["Figma"],
-    },
 ];
 
 export function getProjectBySlug(slug) {
