@@ -5,8 +5,10 @@ import jpdGarageThumbnail from "../images/project_thumbnails/JPDGarage thumbnail
 import mvxThumbnail from "../images/project_thumbnails/MVX thumbnail.png";
 import agriguardThumbnail from "../images/project_thumbnails/AgriGuard thumbnail.png";
 import food360thumbnail from "../images/project_thumbnails/Food360 thumbnail.png";
-// import academicDesignWorksThumbnail from "../images/project_thumbnails/Academic Design Works thumbnail.png";
-
+import academicDesignWorksThumbnail from "../images/project_thumbnails/Academic Design Works thumbnail.png";
+import cassetteInlayDesignsThumbnail from "../images/project_thumbnails/Cassette Inlay Designs thumbnail.png";
+import commissionedDesignWorksThumbnail from "../images/project_thumbnails/Commissioned Design Works thumbnail.png";
+import spotifyPlaylistCoverThumbnail from "../images/project_thumbnails/Spotify Playlist Cover thumbnail.png";
 
 export const projects = [
     {
@@ -62,9 +64,9 @@ export const projects = [
         description:
             "My responsive portfolio website built with React and Tailwind CSS, showcasing my projects and skills.",
         dates: "",
-        role: ["Frontend Developer", "UI/UX Designer"],
+        // Should add Roles back, after migrating data from single .js file to a MongoDB database.
         context: "Personal Portfolio",
-        type: "Responsive Website",
+        type: "Website", // Should make this "Responsive Website" after implementing responsive design for mobile viewing.
         techstack: ["React", "Next.js", "Tailwind", "Vercel"],
         team: "Sole developer",
         status: "Work-in-progress",
@@ -258,29 +260,35 @@ export const projects = [
         slug: "academic-design-works",
         category: "academic",
         title: "Design Works for Various Course Requirements",
+        thumbnail: academicDesignWorksThumbnail,
+        context: "Various Design Works for College Outputs",
+        type: "Graphic Design Outputs",
         description:
             "A compilation of design works created for the fulfillment of different academic course requirements in college.",
-        technologies: ["Canva"],
-    },
-    {
-        slug: "cassette-mixtape-inlay-designs",
-        category: "personal",
-        title: "Cassette Mixtape Inlay Designs",
-        description:
-            "A compilation of cassette mixtape inlay designs made to be printed out for my personal cassette mixtape collection.",
         technologies: ["Canva"],
     },
     {
         slug: "commissioned-design-works",
         category: "personal",
         title: "Commissioned Design Works",
+        thumbnail: commissionedDesignWorksThumbnail,
         description: "A collection of commissioned design work.",
+        technologies: ["Canva"],
+    },
+    {
+        slug: "cassette-mixtape-inlay-designs",
+        category: "personal",
+        title: "Cassette Mixtape Inlay Designs",
+        thumbnail: cassetteInlayDesignsThumbnail,
+        description:
+            "A compilation of cassette mixtape inlay designs made to be printed out for my personal cassette mixtape collection.",
         technologies: ["Canva"],
     },
     {
         slug: "spotify-playlist-covers",
         category: "personal",
         title: "Spotify-inspired Playlist Covers",
+        thumbnail: spotifyPlaylistCoverThumbnail,
         description:
             "A compilation of playlist covers inspired by the design language of Spotify's official playlist covers.",
         technologies: ["Canva"],
