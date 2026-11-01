@@ -1,7 +1,17 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
+import { useState } from "react";
+import {
+    Dialog,
+    DialogContent,
+    DialogTitle,
+} from "@/components/ui/dialog";
 
 export default function ProjectDetail({ project }) {
+    const [isImageOpen, setIsImageOpen] = useState(false);
+
     const projectDetails = [
         { title: "Context", content: project.context },
         { title: "Type", content: project.type },
@@ -27,17 +37,52 @@ export default function ProjectDetail({ project }) {
                 {/* Left column */}
                 <div className="flex min-w-0 flex-[2] flex-col gap-8">
                     {/* Project thumbnail */}
-                    <div className="relative aspect-video w-full overflow-hidden rounded-lg bg-[#D9D9D9]">
+                    <button
+                        type="button"
+                        aria-label={`Enlarge ${project.title} thumbnail`}
+                        onClick={() => setIsImageOpen(true)}
+                        className="group relative block aspect-video w-full cursor-zoom-in overflow-hidden rounded-lg bg-[#D9D9D9]"
+                    >
                         {project.thumbnail && (
                             <Image
                                 src={project.thumbnail}
                                 alt={`${project.title} thumbnail`}
                                 fill
                                 sizes="(max-width: 640px) 100vw, 40vw"
-                                className="object-cover"
+                                className="object-cover transition-transform duration-300 group-hover:scale-105"
                             />
                         )}
-                    </div>
+                        <span
+                            aria-hidden="true"
+                            className="absolute inset-0 flex items-center justify-center bg-black/50 text-lg font-semibold text-white opacity-0 transition-opacity
+                            group-hover:opacity-100
+                            group-focus-visible:opacity-100"
+                        >
+                            Click to enlarge
+                        </span>
+                    </button>
+
+                    <Dialog open={isImageOpen} onOpenChange={setIsImageOpen}>
+                        <DialogContent
+                            closeButtonClassName="hover:bg-black/20"
+                            className="w-[min(90vw,82rem)] gap-0 rounded-none bg-transparent p-0 shadow-none ring-0 sm:max-w-none"
+                        >
+                            <DialogTitle className="sr-only">
+                                {project.title} thumbnail
+                            </DialogTitle>
+                            <div className="relative aspect-video w-full">
+                                {project.thumbnail && (
+                                    <Image
+                                        src={project.thumbnail}
+                                        alt={`${project.title} enlarged thumbnail`}
+                                        fill
+                                        sizes="90vw"
+                                        className="rounded-lg object-contain"
+                                    />
+                                )}
+                            </div>
+                        </DialogContent>
+                    </Dialog>
 
                     {/* Project title */}
                     <header className="flex flex-col">
