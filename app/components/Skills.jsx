@@ -33,6 +33,7 @@ import androidStudioImage from '../images/tech_icons/android-studio-icon.png';
 import csharpImage from '../images/tech_icons/csharp.png';
 import dockerImage from '../images/tech_icons/docker.png';
 import wireframingImage from '../images/tech_icons/wireframing.png';
+import cursorIDEImage from '../images/tech_icons/Cursor_logo.png';
 
 const SkillsContent = () => {
     return (
@@ -223,6 +224,10 @@ const SkillsContent = () => {
                             <div className="flex flex-row gap-4 items-center">
                                 <Image src={vsCodeImage} alt="Visual Studio Code Logo" width={60} height={60} className="rounded-xl bg-white p-2 object-contain" />
                                 <p> Visual Studio Code </p>
+                            </div>
+                            <div className="flex flex-row gap-4 items-center">
+                                <Image src={cursorIDEImage} alt="Cursor IDE Logo" width={60} height={60} className="rounded-xl object-contain" />
+                                <p> Cursor IDE </p>
                             </div>
                             <div className="flex flex-row gap-4 items-center">
                                 <Image src={androidStudioImage} alt="Android Studio Logo" width={60} height={60} className="rounded-xl bg-gray-900 p-2 object-contain" />
