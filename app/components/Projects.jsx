@@ -83,7 +83,7 @@ const ProjectsContent = () => {
                     href={`/projects/${portfolioWebsiteProject.slug}`} 
                     className="group flex min-w-0 flex-row gap-8 rounded-xl p-4 transition-colors hover:bg-black/18 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#4EFF9E]"
                 >
-                    <div className="relative w-80 h-45 overflow-hidden bg-white rounded-lg shrink-0 group-hover:bg-black/10 transition-colors">
+                    <div className="relative w-80 h-45 overflow-hidden rounded-lg shrink-0 group-hover:bg-black/10 transition-colors">
                         {portfolioWebsiteProject?.thumbnail && (
                             <Image
                                 src={portfolioWebsiteProject.thumbnail}
