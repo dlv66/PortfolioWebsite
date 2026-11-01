@@ -121,7 +121,7 @@ export const projects = [
         technologies: ["Kotlin", "Android Studio", "Figma"],
         concepts: ["Android Studio Development", "Wireframing", "User Flows", "Interactive Prototyping"],
         process:
-            ["We submitted a project proposal to our professor, outlining the app's purpose, features, and technical requirements.",
+            ["For our major course output, we submitted the proposal for My Wander Diary to our professor, outlining the app's purpose, features, and technical requirements.",
             "After receiving approval, we worked on the low-fidelity prototypes of the app using Figma, discussing how the user should be onboarded into the app, as well as how each function should be implemented within the app.",
             "After finalizing the low-fidelity prototypes, we proceeded to create the high-fidelity prototype, which we then implemented in Android Studio using Kotlin, following the designs and user flows we had created."
             ],
@@ -160,6 +160,11 @@ export const projects = [
             ["JPDGarage is a web-based finance and inventory management system for JPDGarage, a motorcycle parts business in Siniloan, Laguna, Philippines.",
             "As part of a 9-member team, I led the UI/UX design, and worked on frontend development of the web application."],
         technologies: ["JavaScript", "React", "Bootstrap", "Figma"],
+        concepts: ["Agile Methodology", "Web App Development", "Wireframing", "User Flows",],
+        process:
+            ["Working closely with a real-world product owner under an Agile framework, our team kicked off Sprint 0 with comprehensive client alignment, business requirements gathering, and architecture planning for the web app.", 
+            "Over three core sprints from September 2023 to December 2023, we engineered and deployed the web application to production. In January 2024, we formally handed over the working system to the client alongside full feature documentation and training materials.",
+            "Following initial release, we extended the product lifecycle through April 2024 with a focus on production-grade software engineering, such as refactoring the codebase for maintainability, optimizing performance, and setting up CI/CD pipelines and DevOps best practices."],
     },
     {
         slug: "mvx",
@@ -171,7 +176,7 @@ export const projects = [
         dates: "January 2023 - April 2023",
         role: ["UI/UX Designer", "Frontend Engineer"],
         context: "CCAPDEV (Web Application Development) Course Project",
-        type: "Website",
+        type: "MVP Website",
         techstack: ["Bootstrap", "Node.js", "Express.js", "MongoDB"],
         team: "3 members",
         status: "Feature-complete",
@@ -190,6 +195,12 @@ export const projects = [
             "As part of a 3-member team, I led the UI/UX design, and worked on frontend development of the web application. I also occasionally helped with database implementation.",
             "MVX was the first full-stack project I worked on in university, where my co-developers and I designed and built a complete web application from the ground up."],
         technologies: ["HTML", "CSS3", "EJS", "JavaScript", "Bootstrap", "Node.js", "Express.js", "MongoDB", "Mongoose", "Canva"],
+        concepts: ["Informal Kanban Methodology", "Web App Development", "User Flows",],
+        process:
+            ["We started the project by submitting an initial proposal for a music review platform inspired by Letterboxd, with accompanying core features, data schemas, and user flows.", 
+            "As lead UI/UX designer, I built rapid, mid-fidelity wireframes and design mockups in Canva. This established a clear visual hierarchy, component layout, and user journey before any code was written.",
+            "We translated the static design prototypes into a responsive, dynamic user interface using HTML, CSS, JavaScript, and Bootstrap, later integrating EJS for modular template page rendering.",
+            "We then collaborated to build out the Node.js and Express.js backend, structuring MongoDB databases with Mongoose to implement essential CRUD operations for music reviews and other necessary user data."],
     },
     {
         slug: "agriguard",
