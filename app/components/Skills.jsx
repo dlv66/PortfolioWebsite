@@ -66,15 +66,15 @@ const SkillsContent = () => {
                                 <p> React </p>
                             </div>
                             <div className="flex flex-row gap-4 items-center">
-                                <Image src={nextImage} alt="Next.js Logo" width={60} height={60} className="rounded-xl bg-white object-contain" />
+                                <Image src={nextImage} alt="Next.js Logo" width={60} height={60} className="rounded-xl object-contain" />
                                 <p> Next.js </p>
                             </div>
                             <div className="flex flex-row gap-4 items-center">
-                                <Image src={typescriptImage} alt="TypeScript Logo" width={60} height={60} className="rounded-xl bg-white object-contain" />
+                                <Image src={typescriptImage} alt="TypeScript Logo" width={60} height={60} className="rounded-xl object-contain" />
                                 <p> TypeScript </p>
                             </div>
                             <div className="flex flex-row gap-4 items-center">
-                                <Image src={javascriptImage} alt="JavaScript Logo" width={60} height={60} className="rounded-xl bg-white object-contain" />
+                                <Image src={javascriptImage} alt="JavaScript Logo" width={60} height={60} className="rounded-xl object-contain" />
                                 <p> JavaScript </p>
                             </div>
                             <div className="flex flex-row gap-4 items-center">
@@ -142,7 +142,7 @@ const SkillsContent = () => {
                                 <p> Node.js </p>
                             </div>
                             <div className="flex flex-row gap-4 items-center">
-                                <Image src={expressImage} alt="Express.js Logo" width={60} height={60} className="rounded-xl bg-white object-contain" />
+                                <Image src={expressImage} alt="Express.js Logo" width={60} height={60} className="rounded-xl object-contain" />
                                 <p> Express.js </p>
                             </div>
                             <div className="flex flex-row gap-4 items-center">
@@ -210,7 +210,7 @@ const SkillsContent = () => {
                                 <p> GitHub </p>
                             </div>
                             <div className="flex flex-row gap-4 items-center">
-                                <Image src={vercelImage} alt="Vercel Logo" width={60} height={60} className="rounded-xl bg-white object-contain" />
+                                <Image src={vercelImage} alt="Vercel Logo" width={60} height={60} className="rounded-xl object-contain" />
                                 <p> Vercel </p>
                             </div>
                             <div className="flex flex-row gap-4 items-center">
