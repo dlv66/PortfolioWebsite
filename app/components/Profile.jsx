@@ -13,7 +13,7 @@ const contacts = {
 };
 
 const contactLinkClassName =
-    'group flex size-9 shrink-0 items-center justify-center rounded-full transition-transform hover:scale-105 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white';
+    'group flex size-8 shrink-0 items-center justify-center rounded-full transition-transform hover:scale-105 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white';
 
 function ContactIcon({ Icon }) {
     const maskId = `contact-icon-mask-${useId().replaceAll(':', '')}`;
@@ -32,9 +32,9 @@ function ContactIcon({ Icon }) {
                 >
                     <circle cx="18" cy="18" r="18" fill="white" />
                     <Icon
-                        x="7"
-                        y="7"
-                        size="22px"
+                        x="8"
+                        y="8"
+                        size="20px"
                         color="black"
                     />
                 </mask>
