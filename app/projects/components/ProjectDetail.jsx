@@ -41,7 +41,7 @@ export default function ProjectDetail({ project }) {
                         type="button"
                         aria-label={`Enlarge ${project.title} thumbnail`}
                         onClick={() => setIsImageOpen(true)}
-                        className="group relative block aspect-video w-full cursor-zoom-in overflow-hidden rounded-lg bg-[#D9D9D9]"
+                        className="group relative block aspect-video w-full cursor-zoom-in overflow-hidden rounded-lg"
                     >
                         {project.thumbnail && (
                             <Image
