@@ -76,8 +76,8 @@ export const projects = [
                 url: "https://github.com/dlv66/PortfolioWebsite",
             },
             {
-                label: "Figma Prototype",
-                url: "https://www.figma.com/proto/9HZ3hTSDEB7VKEmQCKR2n1/Thesis-App-Wireframe-Designs?node-id=356-17803&p=f&t=yb7RxfZtJBNE3JrI-1&scaling=min-zoom&content-scaling=fixed&page-id=46%3A228&starting-point-node-id=356%3A17803&show-proto-sidebar=1",
+                label: "Figma Canvas",
+                url: "https://www.figma.com/design/1hhhoFUQJgYFE1KdbBi2Ba/Portfolio-Website-2026?node-id=0-1&t=a5Xtt99es65ZYQCa-1",
             },  
             {
                 label: "Live Website",
