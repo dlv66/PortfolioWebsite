@@ -12,7 +12,7 @@ const AboutContent = () => {
                     I build responsive applications using React, Next.js, TypeScript, with experience integrating RESTful APIs, handling component state, and working with databases.
                 </p>
                 <p>
-                    My work focuses on end-to-end execution: turning design concepts & prototypes into fully functional applications, and deploying them into production.
+                    My work focuses on <strong>end-to-end execution</strong>: turning design concepts & prototypes into fully functional applications, and deploying them into production.
                 </p>
             </div>
         </div>
