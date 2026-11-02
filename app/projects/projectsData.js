@@ -53,8 +53,9 @@ export const projects = [
         process:
             ["Our team adopted the double-diamond design framework as the methodological foundation for the design and development of our thesis work.", 
             "After performing necessary research on existing finance-tracking apps, a need-finding study was conducted to further understand existing gaps and potential improvements that could be made to finance-tracking apps.",
-            "I also implemented responsive component-based architecture and contributed to data model design.",
-            "After the PWA reached a feature-complete state, the team conducted a 2-week user field study to evaluate real-world usability and financial tracking effectiveness."],
+            "Upon completion of the need-finding study, we translated our research findings into low-fidelity structural layouts, followed by a comprehensive high-fidelity end-to-end interactive prototype.",
+            "After finalizing the prototypes, we engineered the production frontend and integrated collaborative backend/database architectures to build out the progressive web application.",
+            "After the PWA reached a feature-complete state, we conducted a 2-week real-world field study to evaluate usability, financial tracking effectiveness, and practical adoption."],
     },
     {
         slug: "portfolio-website",
