@@ -49,7 +49,7 @@ const ProjectsContent = () => {
                             </div>
 
                             {/* Right arrow to denote clickability */}
-                            <FaArrowRight className="shrink-0 text-[#F5F5F5] transition-transform duration-300 ease-out group-hover:translate-x-4 group-hover:text-green-300" />
+                            <FaArrowRight className="shrink-0 text-[#F5F5F5] text-sm transition-transform duration-300 ease-out group-hover:translate-x-4 group-hover:text-green-300" />
                         </div>
                         
                         <p>
@@ -104,7 +104,7 @@ const ProjectsContent = () => {
                             </div>
 
                             {/* Right arrow to denote clickability */}
-                            <FaArrowRight className="shrink-0 text-[#F5F5F5] transition-transform duration-300 ease-out group-hover:translate-x-4 group-hover:text-green-300" />
+                            <FaArrowRight className="shrink-0 text-[#F5F5F5] text-sm transition-transform duration-300 ease-out group-hover:translate-x-4 group-hover:text-green-300" />
                         </div>
                         
                         <p>
@@ -157,7 +157,7 @@ const ProjectsContent = () => {
                             </div>
 
                             {/* Right arrow to denote clickability */}
-                            <FaArrowRight className="shrink-0 text-[#F5F5F5] transition-transform duration-300 ease-out group-hover:translate-x-4 group-hover:text-green-300" />
+                            <FaArrowRight className="shrink-0 text-[#F5F5F5] text-sm transition-transform duration-300 ease-out group-hover:translate-x-4 group-hover:text-green-300" />
                         </div>
                         
                         <p>
@@ -210,7 +210,7 @@ const ProjectsContent = () => {
                             </div>
 
                             {/* Right arrow to denote clickability */}
-                            <FaArrowRight className="shrink-0 text-[#F5F5F5] transition-transform duration-300 ease-out group-hover:translate-x-4 group-hover:text-green-300" />
+                            <FaArrowRight className="shrink-0 text-[#F5F5F5] text-sm transition-transform duration-300 ease-out group-hover:translate-x-4 group-hover:text-green-300" />
                         </div>
 
                         <p>
