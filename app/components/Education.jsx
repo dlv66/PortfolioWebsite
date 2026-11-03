@@ -2,7 +2,7 @@ import React from 'react';
 
 const EducationContent = () => {
     return (
-        <div className="flex flex-col gap-4 py-4 text-[#DFDFDF]">
+        <div className="flex flex-col gap-4 py-4 pb-8 text-[#DFDFDF]">
             <h5 className="text-xl font-semibold text-[#F5F5F5]">
                 EDUCATION
             </h5>
