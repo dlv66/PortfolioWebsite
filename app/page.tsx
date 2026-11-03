@@ -37,16 +37,16 @@ export default function Home() {
             <About />
           </section>
 
-          <section id="education" className="scroll-mt-28">
-            <Education />
-          </section>
-
           <section id="experience" className="scroll-mt-28">
             <Experience />
           </section>
 
           <section id="projects" className="scroll-mt-28">
             <Projects />
+          </section>
+
+          <section id="education" className="scroll-mt-28">
+            <Education />
           </section>
 
           <section id="skills" className="scroll-mt-28">
