@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import TypewriterText from './TypewriterText.jsx';
 import { useId } from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { MdEmail, MdPhone } from 'react-icons/md';
@@ -65,7 +66,8 @@ const Profile = () => {
                         BS Computer Science Graduate
                     </h3>
                     <h3 className="">
-                        Software Engineer | Frontend & UI/UX Specialist
+                        Software Engineer |{' '}
+                        <TypewriterText />
                     </h3>
                 </div>
 
@@ -105,7 +107,7 @@ const Profile = () => {
                     <a
                         href="/downloadables/VILLAMIEL%20Denis%20Leeroi%20-%20Resume%202026.pdf"
                         download
-                        className="underline hover:text-white transition-colors"
+                        className="underline hover:text-white transition-colors underline-offset-2"
                     >
                         Download Resume
                     </a>
