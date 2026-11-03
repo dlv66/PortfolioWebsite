@@ -24,7 +24,7 @@ const Navbar = () => {
                             key={item.id}
                             href={`/#${item.id}`}
                             className="rounded-xl px-4 py-2 font-medium text-[#e7fff2]
-                                    transition-colors duration-200 hover:bg-[#0B3D28]/40 hover:text-white"
+                                    transition-colors duration-150 hover:bg-[#0B3D28]/40 hover:text-white"
                         >
                             {item.label}
                         </Link>
