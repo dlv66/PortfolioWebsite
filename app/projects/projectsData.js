@@ -14,6 +14,7 @@ export const projects = [
     {
         slug: "pisocake",
         category: "academic",
+        detailLayout: "case-study",
         title: "PisoCAKE - Finance Tracking PWA",
         thumbnail: pisoCakeThumbnail,
         subtitle: "(Bachelor's Thesis)",
@@ -60,6 +61,7 @@ export const projects = [
     {
         slug: "portfolio-website",
         category: "featured",
+        detailLayout: "case-study",
         title: "Portfolio Website",
         thumbnail: portfolioWebsiteThumbnail,
         description:
@@ -90,6 +92,7 @@ export const projects = [
     {
         slug: "my-wander-diary",
         category: "academic",
+        detailLayout: "case-study",
         title: "My Wander Diary - Photo-Journal Android Mobile App",
         thumbnail: myWanderDiaryThumbnail,
         description:
@@ -130,6 +133,7 @@ export const projects = [
     {
         slug: "jpd-garage",
         category: "academic",
+        detailLayout: "case-study",
         title: "JPDGarage Online Management System",
         thumbnail: jpdGarageThumbnail,
         description:
@@ -170,6 +174,7 @@ export const projects = [
     {
         slug: "mvx",
         category: "academic",
+        detailLayout: "case-study",
         title: "MVX - Music Rating & Review Website",
         thumbnail: mvxThumbnail,
         description:
@@ -206,6 +211,7 @@ export const projects = [
     {
         slug: "agriguard",
         category: "academic",
+        detailLayout: "case-study",
         title: "AgriGuard - Farmer & Fisherfolk Support Mobile App Prototype",
         thumbnail: agriguardThumbnail,
         description:
@@ -236,6 +242,7 @@ export const projects = [
     {
         slug: "food360",
         category: "academic",
+        detailLayout: "case-study",
         title: "Food360 - Sustainable Food Management App Prototype",
         thumbnail: food360thumbnail,
         description:
@@ -271,6 +278,7 @@ export const projects = [
     {
         slug: "academic-design-works",
         category: "academic",
+        detailLayout: "design-gallery",
         title: "Design Works for Various Course Requirements",
         thumbnail: academicDesignWorksThumbnail,
         context: "Various Design Works for College Outputs",
@@ -278,32 +286,55 @@ export const projects = [
         description:
             "A compilation of design works created for the fulfillment of different academic course requirements in college.",
         technologies: ["Canva"],
+        gallery: [
+            { src: null, alt: "Replace with a description of this academic design", caption: "Academic design 1" },
+            { src: null, alt: "Replace with a description of this academic design", caption: "Academic design 2" },
+            { src: null, alt: "Replace with a description of this academic design", caption: "Academic design 3" },
+        ],
     },
     {
         slug: "commissioned-design-works",
         category: "personal",
+        detailLayout: "design-gallery",
         title: "Commissioned Design Works",
         thumbnail: commissionedDesignWorksThumbnail,
         description: "A collection of commissioned design work.",
         technologies: ["Canva"],
+        gallery: [
+            { src: null, alt: "Replace with a description of this commissioned design", caption: "Commissioned design 1" },
+            { src: null, alt: "Replace with a description of this commissioned design", caption: "Commissioned design 2" },
+            { src: null, alt: "Replace with a description of this commissioned design", caption: "Commissioned design 3" },
+        ],
     },
     {
         slug: "cassette-mixtape-inlay-designs",
         category: "personal",
+        detailLayout: "design-gallery",
         title: "Cassette Mixtape Inlay Designs",
         thumbnail: cassetteInlayDesignsThumbnail,
         description:
             "A compilation of cassette mixtape inlay designs made to be printed out for my personal cassette mixtape collection.",
         technologies: ["Canva"],
+        gallery: [
+            { src: null, alt: "Replace with a description of this cassette inlay design", caption: "Cassette inlay 1" },
+            { src: null, alt: "Replace with a description of this cassette inlay design", caption: "Cassette inlay 2" },
+            { src: null, alt: "Replace with a description of this cassette inlay design", caption: "Cassette inlay 3" },
+        ],
     },
     {
         slug: "spotify-playlist-covers",
         category: "personal",
+        detailLayout: "design-gallery",
         title: "Spotify-inspired Playlist Covers",
         thumbnail: spotifyPlaylistCoverThumbnail,
         description:
             "A compilation of playlist covers inspired by the design language of Spotify's official playlist covers.",
         technologies: ["Canva"],
+        gallery: [
+            { src: null, alt: "Replace with a description of this playlist cover", caption: "Playlist cover 1" },
+            { src: null, alt: "Replace with a description of this playlist cover", caption: "Playlist cover 2" },
+            { src: null, alt: "Replace with a description of this playlist cover", caption: "Playlist cover 3" },
+        ],
     },
 ];
 
