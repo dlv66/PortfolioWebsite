@@ -8,9 +8,14 @@ import {
     DialogContent,
     DialogTitle,
 } from "@/components/ui/dialog";
+import ProjectDesignGallery from "./ProjectDesignGallery.jsx";
 
 export default function ProjectDetail({ project }) {
     const [isImageOpen, setIsImageOpen] = useState(false);
+
+    if (project.detailLayout === "design-gallery") {
+        return <ProjectDesignGallery project={project} />;
+    }
 
     const projectDetails = [
         { title: "Context", content: project.context },

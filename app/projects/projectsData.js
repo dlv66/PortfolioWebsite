@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import pisoCakeThumbnail from "../images/project_thumbnails/PisoCAKE thumbnail.png";
 import portfolioWebsiteThumbnail from "../images/project_thumbnails/Portfolio website thumbnail.png";
 import myWanderDiaryThumbnail from "../images/project_thumbnails/My Wander Diary thumbnail.png";
@@ -9,6 +11,57 @@ import academicDesignWorksThumbnail from "../images/project_thumbnails/Academic 
 import cassetteInlayDesignsThumbnail from "../images/project_thumbnails/Cassette Inlay Designs thumbnail.png";
 import commissionedDesignWorksThumbnail from "../images/project_thumbnails/Commissioned Design Works thumbnail.png";
 import spotifyPlaylistCoverThumbnail from "../images/project_thumbnails/Spotify Playlist Cover thumbnail.png";
+
+import cassette2000sOpmHitsVol1 from "../images/design_project_photos/cassette_inlays/2000s OPM Hits Vol 1.png";
+import cassette2000sOpmHitsVol2 from "../images/design_project_photos/cassette_inlays/2000s OPM Hits Vol 2.png";
+import cassetteHipHopSelectsVol1 from "../images/design_project_photos/cassette_inlays/Hip-Hop Selects Vol 1.png";
+import cassetteHipHopSelectsVol2 from "../images/design_project_photos/cassette_inlays/Hip-Hop Selects Vol 2.png";
+import cassetteIvOfSpadesAndalucia from "../images/design_project_photos/cassette_inlays/IV of Spades Andalucia.png";
+import cassetteIvOfSpadesRetrograde from "../images/design_project_photos/cassette_inlays/IV of Spades Retrograde.png";
+import cassetteIvOfSpadesSoloWorks from "../images/design_project_photos/cassette_inlays/IV of Spades Solo Works.png";
+import cassettePostGrungeCutsVol1 from "../images/design_project_photos/cassette_inlays/Post-Grunge Cuts Vol 1.png";
+import cassettePostGrungeCutsVol2 from "../images/design_project_photos/cassette_inlays/Post-Grunge Cuts Vol 2.png";
+import cassetteBeatlesGreatestHitsVol1 from "../images/design_project_photos/cassette_inlays/The Beatles Greatest Hits Vol 1.png";
+import cassetteBeatlesGreatestHitsVol2 from "../images/design_project_photos/cassette_inlays/The Beatles Greatest Hits Vol 2.png";
+import cassetteBestOf1970sVol1 from "../images/design_project_photos/cassette_inlays/The Best of the 1970s Vol 1.png";
+import cassetteBestOf1970sVol2 from "../images/design_project_photos/cassette_inlays/The Best of the 1970s Vol 2.png";
+import cassetteBestOf1970sVol3 from "../images/design_project_photos/cassette_inlays/The Best of the 1970s Vol 3.png";
+import cassetteBestOf1980sVol1 from "../images/design_project_photos/cassette_inlays/The Best of the 1980s Vol 1.png";
+import cassetteBestOf1980sVol2 from "../images/design_project_photos/cassette_inlays/The Best of the 1980s Vol 2.png";
+import cassetteBestOf1980sVol3GlamMetal from "../images/design_project_photos/cassette_inlays/The Best of the 1980s Vol 3 - Glam Metal.png";
+import cassetteBestOf1980sVol4TheBallads from "../images/design_project_photos/cassette_inlays/The Best of the 1980s Vol 4 - The Ballads.png";
+import cassetteBestOf1980sVol5 from "../images/design_project_photos/cassette_inlays/The Best of the 1980s Vol 5.png";
+import cassetteBestOf1980sVol6 from "../images/design_project_photos/cassette_inlays/The Best of the 1980s Vol 6.png";
+import cassetteKingOfPopCollectionVol1 from "../images/design_project_photos/cassette_inlays/The King of Pop Collection Vol 1.png";
+import cassetteKingOfPopCollectionVol2 from "../images/design_project_photos/cassette_inlays/The King of Pop Collection Vol 2.png";
+import cassetteTohoshinkiJapaneseHitsVol1 from "../images/design_project_photos/cassette_inlays/Tohoshinki The Japanese Hits Vol 1.png";
+import cassetteTohoshinkiJapaneseHitsVol2 from "../images/design_project_photos/cassette_inlays/Tohoshinki The Japanese Hits Vol 2.png";
+import cassetteTvxqGreatestHitsVol1 from "../images/design_project_photos/cassette_inlays/TVXQ! Greatest Hits Vol 1.png";
+import cassetteTvxqGreatestHitsVol2 from "../images/design_project_photos/cassette_inlays/TVXQ! Greatest Hits Vol 2.png";
+import playlistCoverFirstGenKpop from "../images/design_project_photos/spotify_playlist_covers/1st Gen K-Pop.png";
+import playlistCover2000sRnBCalled from "../images/design_project_photos/spotify_playlist_covers/2000s RnB Called.png";
+import playlistCover2000sOlderBrother from "../images/design_project_photos/spotify_playlist_covers/2000s_Older_Brother.png";
+import playlistCoverSecondGenKpop from "../images/design_project_photos/spotify_playlist_covers/2nd Gen K-Pop.png";
+import playlistCoverThirdGenKpop from "../images/design_project_photos/spotify_playlist_covers/3rd Gen K-Pop.png";
+import playlistCoverFourthGenKpop from "../images/design_project_photos/spotify_playlist_covers/4th Gen K-Pop.png";
+import playlistCoverFifthGenKpop from "../images/design_project_photos/spotify_playlist_covers/5th Gen K-Pop.png";
+import playlistCoverChildhoodClassics from "../images/design_project_photos/spotify_playlist_covers/Childhood Classics.png";
+import playlistCoverDivorcedDadRock from "../images/design_project_photos/spotify_playlist_covers/Divorced Dad Rock.png";
+import playlistCoverEasyListening from "../images/design_project_photos/spotify_playlist_covers/Easy Listening.png";
+import playlistCoverEmo from "../images/design_project_photos/spotify_playlist_covers/Emo.png";
+import playlistCoverHipHop from "../images/design_project_photos/spotify_playlist_covers/Hip-Hop.png";
+import playlistCoverILoveThe70s from "../images/design_project_photos/spotify_playlist_covers/I Love The 70s.png";
+import playlistCoverILoveThe80s from "../images/design_project_photos/spotify_playlist_covers/I Love The 80s.png";
+import playlistCoverILoveThe90s from "../images/design_project_photos/spotify_playlist_covers/I Love The 90s.png";
+import playlistCoverJMusic from "../images/design_project_photos/spotify_playlist_covers/J-Music.png";
+import playlistCoverMetal from "../images/design_project_photos/spotify_playlist_covers/Metal.png";
+import playlistCoverNightlife from "../images/design_project_photos/spotify_playlist_covers/Nightlife.png";
+import playlistCoverOpm from "../images/design_project_photos/spotify_playlist_covers/OPM.png";
+import playlistCoverPureKpop from "../images/design_project_photos/spotify_playlist_covers/Pure K-Pop.png";
+import playlistCoverSpiritedDriving from "../images/design_project_photos/spotify_playlist_covers/Spirited Driving.png";
+import playlistCoverTohoshinki from "../images/design_project_photos/spotify_playlist_covers/Tohoshinki.png";
+
+
 
 export const projects = [
     {
@@ -169,7 +222,7 @@ export const projects = [
         process:
             ["Working closely with a real-world product owner under an Agile framework, our team kicked off Sprint 0 with comprehensive client alignment, business requirements gathering, and architecture planning for the web app.", 
             "Over three core sprints from September 2023 to December 2023, we engineered and deployed the web application to production. In January 2024, we formally handed over the working system to the client alongside full feature documentation and training materials.",
-            "Following initial release, we extended the product lifecycle through April 2024 with a focus on production-grade software engineering, such as refactoring the codebase for maintainability, optimizing performance, and setting up CI/CD pipelines and DevOps best practices."],
+            "Following initial release, we extended the product lifecycle through April 2024 where I took on the role of Scrum Leader. I led the team through the remaining development phases with a focus on production-grade software engineering, such as refactoring the codebase for maintainability, optimizing performance, and setting up CI/CD pipelines and DevOps best practices."],
     },
     {
         slug: "mvx",
@@ -316,10 +369,31 @@ export const projects = [
             "A compilation of cassette mixtape inlay designs made to be printed out for my personal cassette mixtape collection.",
         technologies: ["Canva"],
         gallery: [
-            { src: null, alt: "Replace with a description of this cassette inlay design", caption: "Cassette inlay 1" },
-            { src: null, alt: "Replace with a description of this cassette inlay design", caption: "Cassette inlay 2" },
-            { src: null, alt: "Replace with a description of this cassette inlay design", caption: "Cassette inlay 3" },
+            { src: cassetteBestOf1980sVol1, alt: "The Best of the 1980s Volume 1 cassette inlay", caption: "The Best of the 1980s Volume 1" },
+            { src: cassetteBestOf1980sVol2, alt: "The Best of the 1980s Volume 2 cassette inlay", caption: "The Best of the 1980s Volume 2" },
+            { src: cassetteBestOf1980sVol3GlamMetal, alt: "The Best of the 1980s Volume 3 - Glam Metal cassette inlay", caption: "The Best of the 1980s Volume 3 - Glam Metal" },
+            { src: cassetteBestOf1980sVol4TheBallads, alt: "The Best of the 1980s Volume 4 - The Ballads cassette inlay", caption: "The Best of the 1980s Volume 4 - The Ballads" },
+            { src: cassetteBeatlesGreatestHitsVol1, alt: "The Beatles Greatest Hits Volume 1 cassette inlay", caption: "The Beatles Greatest Hits Volume 1" },
+            { src: cassetteBeatlesGreatestHitsVol2, alt: "The Beatles Greatest Hits Volume 2 cassette inlay", caption: "The Beatles Greatest Hits Volume 2" },
+            { src: cassetteTohoshinkiJapaneseHitsVol1, alt: "Tohoshinki The Japanese Hits Volume 1 cassette inlay", caption: "Tohoshinki The Japanese Hits Volume 1" },
+            { src: cassetteTohoshinkiJapaneseHitsVol2, alt: "Tohoshinki The Japanese Hits Volume 2 cassette inlay", caption: "Tohoshinki The Japanese Hits Volume 2" },
+            { src: cassetteBestOf1970sVol1, alt: "The Best of the 1970s Volume 1 cassette inlay", caption: "The Best of the 1970s Volume 1" },
+            { src: cassetteBestOf1970sVol2, alt: "The Best of the 1970s Volume 2 cassette inlay", caption: "The Best of the 1970s Volume 2" },
+            { src: cassetteKingOfPopCollectionVol1, alt: "The King of Pop Collection Volume 1 cassette inlay", caption: "The King of Pop Collection Volume 1" },
+            { src: cassetteKingOfPopCollectionVol2, alt: "The King of Pop Collection Volume 2 cassette inlay", caption: "The King of Pop Collection Volume 2" },
+            { src: cassettePostGrungeCutsVol1, alt: "Post-Grunge Cuts Volume 1 cassette inlay", caption: "Post-Grunge Cuts Volume 1" },
+            { src: cassettePostGrungeCutsVol2, alt: "Post-Grunge Cuts Volume 2 cassette inlay", caption: "Post-Grunge Cuts Volume 2" },
+            { src: cassetteTvxqGreatestHitsVol1, alt: "TVXQ! Greatest Hits Volume 1 cassette inlay", caption: "TVXQ! Greatest Hits Volume 1" },
+            { src: cassetteTvxqGreatestHitsVol2, alt: "TVXQ! Greatest Hits Volume 2 cassette inlay", caption: "TVXQ! Greatest Hits Volume 2" },
+            { src: cassetteHipHopSelectsVol1, alt: "Hip-Hop Selects Volume 1 cassette inlay", caption: "Hip-Hop Selects Volume 1" },
+            { src: cassetteHipHopSelectsVol2, alt: "Hip-Hop Selects Volume 2 cassette inlay", caption: "Hip-Hop Selects Volume 2" },
+            { src: cassetteIvOfSpadesAndalucia, alt: "IV of Spades Andalucia cassette inlay", caption: "IV of Spades Andalucia" },
+            { src: cassetteIvOfSpadesRetrograde, alt: "IV of Spades Retrograde cassette inlay", caption: "IV of Spades Retrograde" },
+            { src: cassetteIvOfSpadesSoloWorks, alt: "IV of Spades Solo Works cassette inlay", caption: "IV of Spades Solo Works" },
+            { src: cassette2000sOpmHitsVol1, alt: "2000s OPM Hits Volume 1 cassette inlay", caption: "2000s OPM Hits Volume 1" },
+            { src: cassette2000sOpmHitsVol2, alt: "2000s OPM Hits Volume 2 cassette inlay", caption: "2000s OPM Hits Volume 2" },
         ],
+        legalStatement: "All cassette mixtape inlay cover artworks featured in this gallery were created for personal, non-commercial use only. All artist photography, likenesses, logos, and trademarks remain the property of their respective copyright holders. This project is not affiliated with, endorsed by, or officially connected to any featured artists.",
     },
     {
         slug: "spotify-playlist-covers",
@@ -331,10 +405,27 @@ export const projects = [
             "A compilation of playlist covers inspired by the design language of Spotify's official playlist covers.",
         technologies: ["Canva"],
         gallery: [
-            { src: null, alt: "Replace with a description of this playlist cover", caption: "Playlist cover 1" },
-            { src: null, alt: "Replace with a description of this playlist cover", caption: "Playlist cover 2" },
-            { src: null, alt: "Replace with a description of this playlist cover", caption: "Playlist cover 3" },
+            { src: playlistCover2000sOlderBrother, alt: "Spotify playlist cover for 2000s Older Brother", caption: "2000S_OLDER_BROTHER.mp3", subcaption: "This playlist cover recreates a JVC Head Unit from the 2000s using only primitive shapes and color gradients."},
+            { src: playlistCoverFirstGenKpop, alt: "Spotify playlist cover for 1st Gen K-Pop", caption: "1st Gen K-Pop" },
+            { src: playlistCoverSecondGenKpop, alt: "Spotify playlist cover for 2nd Gen K-Pop", caption: "2nd Gen K-Pop" },
+            { src: playlistCoverThirdGenKpop, alt: "Spotify playlist cover for 3rd Gen K-Pop", caption: "3rd Gen K-Pop" },
+            { src: playlistCoverFourthGenKpop, alt: "Spotify playlist cover for 4th Gen K-Pop", caption: "4th Gen K-Pop" },
+            { src: playlistCoverFifthGenKpop, alt: "Spotify playlist cover for 5th Gen K-Pop", caption: "5th Gen K-Pop" },
+            { src: playlistCover2000sRnBCalled, alt: "Spotify playlist cover for 2000s RnB Called", caption: "2000s RnB Called" },
+            { src: playlistCoverMetal, alt: "Spotify playlist cover for Metal", caption: "Metal" },
+            { src: playlistCoverOpm, alt: "Spotify playlist cover for OPM", caption: "OPM" },
+            { src: playlistCoverSpiritedDriving, alt: "Spotify playlist cover for Spirited Driving", caption: "Spirited Driving" },
+            { src: playlistCoverChildhoodClassics, alt: "Spotify playlist cover for Childhood Classics", caption: "Childhood Classics" },
+            { src: playlistCoverHipHop, alt: "Spotify playlist cover for Hip-Hop", caption: "Hip-Hop Favorites" },
+            { src: playlistCoverILoveThe70s, alt: "Spotify playlist cover for I Love The 70s", caption: "I Love The 70s" },
+            { src: playlistCoverILoveThe80s, alt: "Spotify playlist cover for I Love The 80s", caption: "I Love The 80s" },
+            { src: playlistCoverILoveThe90s, alt: "Spotify playlist cover for I Love The 90s", caption: "I Love The 90s" },
+            { src: playlistCoverDivorcedDadRock, alt: "Spotify playlist cover for Divorced Dad Rock", caption: "Divorced Dad Rock" },
+            { src: playlistCoverJMusic, alt: "Spotify playlist cover for J-Music", caption: "J-Music Jams" },
+            { src: playlistCoverNightlife, alt: "Spotify playlist cover for Nightlife", caption: "Nightlife" },
+            { src: playlistCoverEasyListening, alt: "Spotify playlist cover for Easy Listening", caption: "Easy Listening" },
         ],
+        legalStatement: "All Spotify playlist cover artworks featured in this gallery were created for personal, non-commercial use only. All artist photography, likenesses, logos, and trademarks remain the property of their respective copyright holders. This project is not affiliated with, endorsed by, or officially connected to Spotify or any featured artists.",
     },
 ];
 
