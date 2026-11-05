@@ -209,7 +209,7 @@ export default function ProjectDesignGallery({ project }) {
             )}
             
             {project.legalStatement && (
-                <div className="mt-6 text-[#DFDFDF]">
+                <div className="mt-2 text-[#DFDFDF]">
                     <p className="font-semibold py-2 text-[#F5F5F5]">Legal Statement</p>
                     <p>{project.legalStatement}</p>
                 </div>
