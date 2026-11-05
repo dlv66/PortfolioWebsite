@@ -389,7 +389,7 @@ export const projects = [
         description: "A collection of commissioned design work. Some design works first show the client-provided design, followed by the final delivered design that I created.",
         technologies: ["Canva"],
         gallery: [
-            { src: commissionedBeybladePreludeBefore, alt: "Before image for Beyblade X Prelude to Destiny design", caption: "Beyblade X Casual Tournament - Prelude to Destiny", subcaption: "Client-provided design for their Beyblade X casual tournament." },
+            { src: commissionedBeybladePreludeBefore, alt: "Before image for Beyblade X Prelude to Destiny design", caption: "Beyblade X Casual Tournament - Prelude to Destiny - Client-Provided Design" },
             { src: commissionedBeybladePreludeAfter, alt: "After image for Beyblade X Prelude to Destiny design", caption: "Beyblade X Casual Tournament - Prelude to Destiny - Final Delivered Design" },
             { src: commissionedBeybladeCasualsBefore, alt: "Before image for Beyblade X Casuals N Chill design", caption: "Beyblade X Casual Tournament - Casuals N' Chill - Client-Provided Design" },
             { src: commissionedBeybladeCasualsAfter, alt: "After image for Beyblade X Casuals N Chill design", caption: "Beyblade X Casual Tournament - Casuals N' Chill - Final Delivered Design" },
