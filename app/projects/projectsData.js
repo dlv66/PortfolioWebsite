@@ -60,6 +60,28 @@ import playlistCoverOpm from "../images/design_project_photos/spotify_playlist_c
 import playlistCoverPureKpop from "../images/design_project_photos/spotify_playlist_covers/Pure K-Pop.png";
 import playlistCoverSpiritedDriving from "../images/design_project_photos/spotify_playlist_covers/Spirited Driving.png";
 import playlistCoverTohoshinki from "../images/design_project_photos/spotify_playlist_covers/Tohoshinki.png";
+import academicCsarch2ExhibitFlyer from "../images/design_project_photos/other_academic_works/CSARCH2 Exhibit - Flyer.png";
+import academicCsarch2ExhibitTableBanner from "../images/design_project_photos/other_academic_works/CSARCH2 Exhibit - Table Banner.png";
+import academicCsarch2ExhibitVerticalPoster from "../images/design_project_photos/other_academic_works/CSARCH2 Exhibit - Vertical Large Poster.png";
+import academicCsarch2ExhibitPhotoCollage from "../images/design_project_photos/other_academic_works/CSARCH2 S14 Group 8 - Exhibit Photo Collage.png";
+import academicGeartapPodcastCover from "../images/design_project_photos/other_academic_works/GEARTAP - Podcast Cover (Revolution on Canvas).png";
+import academicGeartapScrapbookReflection from "../images/design_project_photos/other_academic_works/GEARTAP - Scrapbook Reflection.png";
+import academicGeartapArtPitchBrochureBack from "../images/design_project_photos/other_academic_works/GEARTAP Art Pitch Brochure - Back.png";
+import academicGeartapArtPitchBrochureFront from "../images/design_project_photos/other_academic_works/GEARTAP Art Pitch Brochure - Front.png";
+import academicGeethicIntroduceYourself from "../images/design_project_photos/other_academic_works/GEETHIC - Introduce Yourself - Villamiel.png";
+import academicHxilThesisBrochureBack from "../images/design_project_photos/other_academic_works/HXIL Thesis Brochure - Back.png";
+import academicHxilThesisBrochureFront from "../images/design_project_photos/other_academic_works/HXIL Thesis Brochure - Front.png";
+import academicLrt1Recreation from "../images/design_project_photos/other_academic_works/LRT-1 Recreation (Using primitive shapes only).png";
+import academicNstpCwtsRaffleTemplate from "../images/design_project_photos/other_academic_works/NSTP-CWTS - Template for Raffle Draw Winners.png";
+import academicThesisExperimentParticipants from "../images/design_project_photos/other_academic_works/THESIS - Call For Participants - Experiment.png";
+import academicThesisNeedfindingParticipants from "../images/design_project_photos/other_academic_works/THESIS - Call For Participants - Needfinding.png";
+import commissionedBeybladeCasualsBefore from "../images/design_project_photos/commissioned_works/Beyblade X Casuals N Chill - Before.png";
+import commissionedBeybladeCasualsAfter from "../images/design_project_photos/commissioned_works/Beyblade X Casuals N Chill - After.png";
+import commissionedBeybladePreludeBefore from "../images/design_project_photos/commissioned_works/Beyblade X Prelude to Destiny - Before.png";
+import commissionedBeybladePreludeAfter from "../images/design_project_photos/commissioned_works/Beyblade X Prelude to Destiny - After.png";
+import commissionedGoalCraftHiringPost from "../images/design_project_photos/commissioned_works/Goal Craft - Hiring Post.png";
+import commissionedGoalCraftOnlineTutors from "../images/design_project_photos/commissioned_works/Goal Craft - Online Tutors.png";
+import commissionedIsuzuTravizRental from "../images/design_project_photos/commissioned_works/Isuzu Traviz Rental.png";
 
 
 
@@ -340,10 +362,23 @@ export const projects = [
             "A compilation of design works created for the fulfillment of different academic course requirements in college.",
         technologies: ["Canva"],
         gallery: [
-            { src: null, alt: "Replace with a description of this academic design", caption: "Academic design 1" },
-            { src: null, alt: "Replace with a description of this academic design", caption: "Academic design 2" },
-            { src: null, alt: "Replace with a description of this academic design", caption: "Academic design 3" },
+            { src: academicCsarch2ExhibitFlyer, alt: "CSARCH2 exhibit flyer", caption: "CSARCH2 Exhibit - Flyer" },
+            { src: academicCsarch2ExhibitTableBanner, alt: "CSARCH2 exhibit table banner", caption: "CSARCH2 Exhibit - Table Banner" },
+            { src: academicCsarch2ExhibitVerticalPoster, alt: "CSARCH2 exhibit vertical large poster", caption: "CSARCH2 Exhibit - Vertical Large Poster" },
+            { src: academicCsarch2ExhibitPhotoCollage, alt: "CSARCH2 Group 8 exhibit photo collage", caption: "CSARCH2 S14 Group 8 - Exhibit Photo Collage" },
+            { src: academicGeartapPodcastCover, alt: "GEARTAP podcast cover for Revolution on Canvas", caption: "GEARTAP - Podcast Cover (Revolution on Canvas)" },
+            { src: academicGeartapScrapbookReflection, alt: "GEARTAP scrapbook reflection", caption: "GEARTAP - Scrapbook Reflection" },
+            { src: academicGeartapArtPitchBrochureFront, alt: "Front of GEARTAP art pitch brochure", caption: "GEARTAP Art Pitch Brochure - Front" },
+            { src: academicGeartapArtPitchBrochureBack, alt: "Back of GEARTAP art pitch brochure", caption: "GEARTAP Art Pitch Brochure - Back" },
+            { src: academicGeethicIntroduceYourself, alt: "GEETHIC introduce yourself design for Villamiel", caption: "GEETHIC - Introduce Yourself - Villamiel" },
+            { src: academicHxilThesisBrochureFront, alt: "Front of HXIL thesis brochure", caption: "HXIL Thesis Brochure - Front" },
+            { src: academicHxilThesisBrochureBack, alt: "Back of HXIL thesis brochure", caption: "HXIL Thesis Brochure - Back" },
+            { src: academicLrt1Recreation, alt: "LRT-1 recreation made with primitive shapes", caption: "LRT-1 Recreation (Using primitive shapes only)" },
+            { src: academicNstpCwtsRaffleTemplate, alt: "NSTP-CWTS raffle draw winners template", caption: "NSTP-CWTS - Template for Raffle Draw Winners" },
+            { src: academicThesisExperimentParticipants, alt: "Thesis call for participants for an experiment", caption: "THESIS - Call For Participants - Experiment" },
+            { src: academicThesisNeedfindingParticipants, alt: "Thesis call for participants for needfinding", caption: "THESIS - Call For Participants - Needfinding" },
         ],
+        legalStatement: "All graphic designs featured in this gallery were created for academic, non-commercial use only. All personally-sensitive data has been redacted to protect the privacy of the individuals and organizations originally involved with the projects where some of these photos originate. All likenesses, logos, and trademarks remain the property of their respective copyright holders.",
     },
     {
         slug: "commissioned-design-works",
@@ -351,13 +386,18 @@ export const projects = [
         detailLayout: "design-gallery",
         title: "Commissioned Design Works",
         thumbnail: commissionedDesignWorksThumbnail,
-        description: "A collection of commissioned design work.",
+        description: "A collection of commissioned design work. Some design works first show the client-provided design, followed by the final delivered design that I created.",
         technologies: ["Canva"],
         gallery: [
-            { src: null, alt: "Replace with a description of this commissioned design", caption: "Commissioned design 1" },
-            { src: null, alt: "Replace with a description of this commissioned design", caption: "Commissioned design 2" },
-            { src: null, alt: "Replace with a description of this commissioned design", caption: "Commissioned design 3" },
+            { src: commissionedBeybladePreludeBefore, alt: "Before image for Beyblade X Prelude to Destiny design", caption: "Beyblade X Casual Tournament - Prelude to Destiny", subcaption: "Client-provided design for their Beyblade X casual tournament." },
+            { src: commissionedBeybladePreludeAfter, alt: "After image for Beyblade X Prelude to Destiny design", caption: "Beyblade X Casual Tournament - Prelude to Destiny - Final Delivered Design" },
+            { src: commissionedBeybladeCasualsBefore, alt: "Before image for Beyblade X Casuals N Chill design", caption: "Beyblade X Casual Tournament - Casuals N' Chill - Client-Provided Design" },
+            { src: commissionedBeybladeCasualsAfter, alt: "After image for Beyblade X Casuals N Chill design", caption: "Beyblade X Casual Tournament - Casuals N' Chill - Final Delivered Design" },
+            { src: commissionedGoalCraftHiringPost, alt: "Goal Craft hiring post design", caption: "Goal Craft - Hiring Post" },
+            { src: commissionedGoalCraftOnlineTutors, alt: "Goal Craft online tutors design", caption: "Goal Craft - Online Tutors" },
+            { src: commissionedIsuzuTravizRental, alt: "Isuzu Traviz rental design", caption: "Isuzu Traviz Rental" },
         ],
+        legalStatement: "All client and commercial graphic design works featured in this portfolio are displayed for non-commercial showcase and presentation purposes only. Proprietary assets, active contact details, and sensitive organization data have been redacted or modified to protect client privacy. Original brand names, logos, trademarks, and associated materials remain the property of their respective owners.",
     },
     {
         slug: "cassette-mixtape-inlay-designs",
