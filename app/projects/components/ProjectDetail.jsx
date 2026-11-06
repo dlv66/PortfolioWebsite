@@ -69,8 +69,8 @@ export default function ProjectDetail({ project }) {
 
                     <Dialog open={isImageOpen} onOpenChange={setIsImageOpen}>
                         <DialogContent
-                            closeButtonClassName="text-green-800 hover:text-green-800 bg-green-100/80 hover:bg-green-100/20 border-1 border-green-600 opacity-0 transition-opacity group-hover/image-dialog:opacity-100 focus-visible:opacity-100"
-                            className="group/image-dialog w-[min(90vw,82rem)] gap-0 rounded-none bg-transparent p-0 shadow-none ring-0 sm:max-w-none"
+                            closeButtonClassName="hover:bg-black/20"
+                            className="w-[min(90vw,82rem)] gap-0 rounded-none bg-transparent p-0 shadow-none ring-0 sm:max-w-none"
                         >
                             <DialogTitle className="sr-only">
                                 {project.title} thumbnail
