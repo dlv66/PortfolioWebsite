@@ -9,7 +9,7 @@ My personal portfolio that showcases my education, experience, academic projects
 | Framework | [Next.js](https://nextjs.org) (App Router) |
 | UI Library | [React](https://react.dev) |
 | Language | [TypeScript](https://www.typescriptlang.org) / JavaScript (JSX) |
-| Styling | [Tailwind CSS](https://tailwindcss.com) 4 |
+| Styling | [Tailwind CSS](https://tailwindcss.com) |
 | Icons | [react-icons](https://react-icons.github.io/react-icons) |
 | Font | [Inter](https://fonts.google.com/specimen/Inter) via `next/font` |
 | Linting | ESLint (`eslint-config-next`) |
@@ -37,10 +37,16 @@ app/
 
 ## Sections
 
-The site is a single-page scrolling portfolio. The navbar (and its buttons) scrolls to:
+The site's navbar (and its buttons) scrolls to:
 
 1. About  
-2. Education  
+2. Projects
 3. Experience  
-4. Projects
+4. Education
 5. Skills  
+6. Contact
+
+Upon pressing the "View All Projects" button in the "Projects" section of the home page, the site leads to my project archive, which is divided into 3 sections:
+1. Featured Project
+2. Academic Projects
+3. Personal Projects
