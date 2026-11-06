@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { ZoomIn } from "lucide-react";
 import {
     Carousel,
     CarouselContent,
@@ -92,15 +93,32 @@ export default function ProjectDesignGallery({ project }) {
                             <div className="pointer-events-auto flex w-14 items-center pl-4 sm:w-20 sm:pl-3">
                                 <CarouselPrevious className="static border-green-200/50 bg-black/60 
                                                            text-green-200 opacity-0 transition-opacity duration-200
-                                                           hover:bg-black/80 hover:text-green-200 group-hover/frame:opacity-100 
+                                                           hover:bg-black hover:border-white hover:text-white group-hover/frame:opacity-100
                                                              focus-visible:opacity-100 [@media(hover:none)]:opacity-100" />
                             </div>
                             <div className="pointer-events-auto flex w-14 items-center justify-end pr-4 sm:w-20 sm:pr-3">
                                 <CarouselNext className="static border-green-200/50 bg-black/60 
                                                        text-green-200 opacity-0 transition-opacity duration-200 
-                                                       hover:bg-black/80 hover:text-green-200 group-hover/frame:opacity-100 
+                                                       hover:bg-black hover:border-white hover:text-white group-hover/frame:opacity-100
                                                          focus-visible:opacity-100 [@media(hover:none)]:opacity-100" />
                             </div>
+
+                            {/* Zoom button overlay, anchored to the photo frame. Upon press, opens image in its full size in a separate browser tab */}
+                            {gallery[selectedIndex]?.src && (
+                                <a
+                                    href={gallery[selectedIndex].src.src}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    aria-label={`Open ${gallery[selectedIndex].caption || `image ${selectedIndex + 1}`} at full size in a new tab`}
+                                    className="pointer-events-auto absolute bottom-3 right-3 z-20 flex size-8 items-center justify-center
+                                               rounded-full border border-green-200/50 bg-black/60 text-green-200 opacity-0
+                                               transition-opacity duration-200 hover:bg-black hover:text-white hover:border-white
+                                               group-hover/frame:opacity-100 focus-visible:opacity-100
+                                               [@media(hover:none)]:opacity-100"
+                                >
+                                    <ZoomIn className="size-4" />
+                                </a>
+                            )}
                         </div>
 
                     </div>
