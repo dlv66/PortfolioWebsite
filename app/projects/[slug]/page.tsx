@@ -22,7 +22,7 @@ export default async function ProjectPage({
   return (
     <main className="relative min-h-screen font-sans text-slate-100">
       {/* Background Layer */}
-      <div className="absolute inset-0 z-0 min-h-full w-full bg-gradient-to-b from-[#04844D] via-[#075631] to-[#0B3D28]">
+      <div className="absolute inset-0 z-0 min-h-full w-full bg-gradient-to-b from-[#04844D] via-[#075631] to-[#164A32]">
         {/* Dot Matrix Pattern*/}
         <div 
           className="absolute inset-0 bg-[radial-gradient(#22c55e_1.5px,transparent_1.5px)] [background-size:32px_32px] opacity-[0.08]"
