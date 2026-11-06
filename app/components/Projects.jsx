@@ -68,7 +68,7 @@ const ProjectsContent = () => {
                             ].map((tech) => (
                                 <span
                                     key={tech}
-                                    className="w-fit rounded-full bg-[#16804E] px-2.5 py-1 text-sm font-medium text-[#4EFF9E]"
+                                    className="w-fit rounded-full bg-[#08452F] px-2.5 py-1 text-sm font-medium text-[#4EFF9E]"
                                 >
                                     {tech}
                                 </span>
@@ -122,7 +122,7 @@ const ProjectsContent = () => {
                             ].map((tech) => (
                                 <span
                                     key={tech}
-                                    className="w-fit rounded-full bg-[#16804E] px-2.5 py-1 text-sm font-medium text-[#4EFF9E]"
+                                    className="w-fit rounded-full bg-[#08452F] px-2.5 py-1 text-sm font-medium text-[#4EFF9E]"
                                 >
                                     {tech}
                                 </span>
@@ -175,7 +175,7 @@ const ProjectsContent = () => {
                             ].map((tech) => (
                                 <span
                                     key={tech}
-                                    className="w-fit rounded-full bg-[#16804E] px-2.5 py-1 text-sm font-medium text-[#4EFF9E]"
+                                    className="w-fit rounded-full bg-[#08452F] px-2.5 py-1 text-sm font-medium text-[#4EFF9E]"
                                 >
                                     {tech}
                                 </span>
@@ -223,7 +223,7 @@ const ProjectsContent = () => {
                             {["JavaScript", "React", "Bootstrap", "Figma"].map((tech) => (
                                 <span
                                     key={tech}
-                                    className="w-fit rounded-full bg-[#16804E] px-2.5 py-1 text-sm font-medium text-[#4EFF9E]"
+                                    className="w-fit rounded-full bg-[#08452F] px-2.5 py-1 text-sm font-medium text-[#4EFF9E]"
                                 >
                                     {tech}
                                 </span>

@@ -217,7 +217,7 @@ export default function ProjectDesignGallery({ project }) {
                         {project.technologies.map((technology) => (
                             <span
                                 key={technology}
-                                className="w-fit rounded-full bg-[#16804E] px-2.5 py-1 text-sm font-medium text-[#4EFF9E]"
+                                className="w-fit rounded-full bg-[#08452F] px-2.5 py-1 text-sm font-medium text-[#4EFF9E]"
                             >
                                 {technology}
                             </span>
