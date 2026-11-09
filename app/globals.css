@@ -155,3 +155,11 @@ body {
   flex: 0 0 100%;
   min-width: 0;
 }
+
+.gallery-thumbnails {
+  scrollbar-width: none;
+}
+
+.gallery-thumbnails::-webkit-scrollbar {
+  display: none;
+}
