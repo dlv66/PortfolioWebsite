@@ -35,6 +35,7 @@ import cassetteTohoshinkiJapaneseHitsVol1 from "../images/design_project_photos/
 import cassetteTohoshinkiJapaneseHitsVol2 from "../images/design_project_photos/cassette_inlays/Tohoshinki The Japanese Hits Vol 2.png";
 import cassetteTvxqGreatestHitsVol1 from "../images/design_project_photos/cassette_inlays/TVXQ! Greatest Hits Vol 1.png";
 import cassetteTvxqGreatestHitsVol2 from "../images/design_project_photos/cassette_inlays/TVXQ! Greatest Hits Vol 2.png";
+
 import playlistCoverFirstGenKpop from "../images/design_project_photos/spotify_playlist_covers/1st Gen K-Pop.png";
 import playlistCover2000sRnBCalled from "../images/design_project_photos/spotify_playlist_covers/2000s RnB Called.png";
 import playlistCover2000sOlderBrother from "../images/design_project_photos/spotify_playlist_covers/2000s_Older_Brother.png";
