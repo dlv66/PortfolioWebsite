@@ -158,6 +158,11 @@ export const projects = [
             }
         ],
         technologies: ["React", "Next.js", "Tailwind", "Vercel", "Figma"],
+        process:
+            ["I began by analyzing portfolio websites from other software engineers to study and get some inspiration from their structural patterns, layout hierarchies, and effective design elements.", 
+            "From the design insights I gained, I then translated my ideas into a high-fidelity Figma prototype, establishing the initial layout, color scheme, and typography of how I wanted my own portfolio website to look.",
+            "I then brought the high-fidelity prototypes into fruition using React, Next.js, and Tailwind CSS, choosing to use my go-to tech stack for quick and simple app development.",
+            "Midway through implementation, I identified a spatial inefficiency with my initial design, where content was overly weighted to the right side of the screen. I returned to Figma to rapidly prototype a layout redesign, then refactored the codebase to implement the new centered structure with minor refinements and adjustments along the way.",],
     },
     {
         slug: "my-wander-diary",
