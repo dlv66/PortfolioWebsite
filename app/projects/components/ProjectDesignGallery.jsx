@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { ZoomIn } from "lucide-react";
 import {
     Carousel,
@@ -17,6 +17,15 @@ export default function ProjectDesignGallery({ project }) {
     const [carouselApi, setCarouselApi] = useState(null);
     const [selectedIndex, setSelectedIndex] = useState(0);
     const [isCaptionExpanded, setIsCaptionExpanded] = useState(false);
+    const [hasMoreThumbnails, setHasMoreThumbnails] = useState(false);
+    const thumbnailStripRef = useRef(null);
+    const thumbnailDragRef = useRef({
+        pointerId: null,
+        startX: 0,
+        startScrollLeft: 0,
+        hasDragged: false,
+        suppressClick: false,
+    });
 
     useEffect(() => {
         if (!carouselApi) {
@@ -37,6 +46,100 @@ export default function ProjectDesignGallery({ project }) {
             carouselApi.off("reInit", updateSelectedIndex);
         };
     }, [carouselApi]);
+
+    {/* Thumbnail strip for the mini design gallery */}
+    useEffect(() => {
+        const thumbnailStrip = thumbnailStripRef.current;
+        if (!thumbnailStrip) {
+            return;
+        }
+
+        const updateScrollHint = () => {
+            setHasMoreThumbnails(
+                thumbnailStrip.scrollLeft + thumbnailStrip.clientWidth < thumbnailStrip.scrollWidth - 1
+            );
+        };
+
+        updateScrollHint();
+        const resizeObserver = new ResizeObserver(updateScrollHint);
+        resizeObserver.observe(thumbnailStrip);
+
+        return () => resizeObserver.disconnect();
+    }, [gallery.length]);
+
+    useEffect(() => {
+        const thumbnailStrip = thumbnailStripRef.current;
+        const selectedThumbnail = thumbnailStrip?.querySelector('[aria-pressed="true"]');
+        if (!thumbnailStrip || !selectedThumbnail) {
+            return;
+        }
+
+        const stripBounds = thumbnailStrip.getBoundingClientRect();
+        const thumbnailBounds = selectedThumbnail.getBoundingClientRect();
+        let scrollDelta = 0;
+
+        if (thumbnailBounds.left < stripBounds.left) {
+            scrollDelta = thumbnailBounds.left - stripBounds.left;
+        } else if (thumbnailBounds.right > stripBounds.right - (hasMoreThumbnails ? 40 : 0)) {
+            scrollDelta = thumbnailBounds.right - stripBounds.right + (hasMoreThumbnails ? 40 : 0);
+        }
+
+        if (scrollDelta !== 0) {
+            thumbnailStrip.scrollTo({
+                left: thumbnailStrip.scrollLeft + scrollDelta,
+                behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches
+                    ? "auto"
+                    : "smooth",
+            });
+        }
+    }, [hasMoreThumbnails, selectedIndex]);
+
+    useEffect(() => {
+        const handlePointerMove = (event) => {
+            const drag = thumbnailDragRef.current;
+            if (event.pointerId !== drag.pointerId) {
+                return;
+            }
+
+            const deltaX = event.clientX - drag.startX;
+            if (!drag.hasDragged && Math.abs(deltaX) > 4) {
+                drag.hasDragged = true;
+            }
+
+            if (drag.hasDragged) {
+                event.preventDefault();
+                if (thumbnailStripRef.current) {
+                    thumbnailStripRef.current.scrollLeft = drag.startScrollLeft - deltaX;
+                }
+            }
+        };
+
+        const handlePointerEnd = (event) => {
+            const drag = thumbnailDragRef.current;
+            if (event.pointerId !== drag.pointerId) {
+                return;
+            }
+
+            drag.pointerId = null;
+            if (drag.hasDragged) {
+                drag.suppressClick = true;
+                window.setTimeout(() => {
+                    drag.suppressClick = false;
+                }, 0);
+            }
+            drag.hasDragged = false;
+        };
+
+        window.addEventListener("pointermove", handlePointerMove, { passive: false });
+        window.addEventListener("pointerup", handlePointerEnd);
+        window.addEventListener("pointercancel", handlePointerEnd);
+
+        return () => {
+            window.removeEventListener("pointermove", handlePointerMove);
+            window.removeEventListener("pointerup", handlePointerEnd);
+            window.removeEventListener("pointercancel", handlePointerEnd);
+        };
+    }, []);
 
     return (
         <article className="flex min-w-0 flex-col gap-8 py-4 text-white">
@@ -167,8 +270,39 @@ export default function ProjectDesignGallery({ project }) {
 
                     {/* Carousel thumbnail buttons (mini scrollable gallery) */}
                     <div
+                        ref={thumbnailStripRef}
                         aria-label="Choose a gallery image"
-                        className="mt-4 flex snap-x gap-1 overflow-x-auto pb-2"
+                        onPointerDown={(event) => {
+                            if (!event.isPrimary || (event.pointerType === "mouse" && event.button !== 0)) {
+                                return;
+                            }
+
+                            const drag = thumbnailDragRef.current;
+                            drag.pointerId = event.pointerId;
+                            drag.startX = event.clientX;
+                            drag.startScrollLeft = event.currentTarget.scrollLeft;
+                            drag.hasDragged = false;
+                        }}
+                        onClickCapture={(event) => {
+                            const drag = thumbnailDragRef.current;
+                            if (drag.suppressClick) {
+                                event.preventDefault();
+                                event.stopPropagation();
+                                drag.suppressClick = false;
+                            }
+                        }}
+                        onScroll={(event) => {
+                            const strip = event.currentTarget;
+                            setHasMoreThumbnails(
+                                strip.scrollLeft + strip.clientWidth < strip.scrollWidth - 1
+                            );
+                        }}
+                        style={hasMoreThumbnails ? {
+                            maskImage: "linear-gradient(to right, black calc(100% - 32px), transparent 100%)",
+                            WebkitMaskImage: "linear-gradient(to right, black calc(100% - 32px), transparent 100%)",
+                        } : undefined}
+                        className="gallery-thumbnails mt-4 flex snap-none touch-pan-y select-none gap-1 overflow-x-auto pb-2
+                                   cursor-grab active:cursor-grabbing"
                     >
                         {gallery.map((item, index) => (
                             <button
@@ -177,7 +311,7 @@ export default function ProjectDesignGallery({ project }) {
                                 aria-label={`View ${item.caption || `image ${index + 1}`}`}
                                 aria-pressed={selectedIndex === index}
                                 onClick={() => carouselApi?.scrollTo(index)}
-                                className={`relative h-14 w-14 shrink-0 snap-start overflow-hidden border-2 
+                                className={`relative h-14 w-14 shrink-0 overflow-hidden border-2
                                             transition-opacity hover:opacity-100 focus-visible:outline-none 
                                             focus-visible:ring-2 focus-visible:ring-white ${
                                     selectedIndex === index
@@ -191,6 +325,7 @@ export default function ProjectDesignGallery({ project }) {
                                         alt=""
                                         fill
                                         sizes="56px"
+                                        draggable={false}
                                         className="object-cover"
                                     />
                                 ) : (
