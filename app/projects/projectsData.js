@@ -25,13 +25,10 @@ import cassetteBeatlesGreatestHitsVol1 from "../images/design_project_photos/cas
 import cassetteBeatlesGreatestHitsVol2 from "../images/design_project_photos/cassette_inlays/The Beatles Greatest Hits Vol 2.png";
 import cassetteBestOf1970sVol1 from "../images/design_project_photos/cassette_inlays/The Best of the 1970s Vol 1.png";
 import cassetteBestOf1970sVol2 from "../images/design_project_photos/cassette_inlays/The Best of the 1970s Vol 2.png";
-import cassetteBestOf1970sVol3 from "../images/design_project_photos/cassette_inlays/The Best of the 1970s Vol 3.png";
 import cassetteBestOf1980sVol1 from "../images/design_project_photos/cassette_inlays/The Best of the 1980s Vol 1.png";
 import cassetteBestOf1980sVol2 from "../images/design_project_photos/cassette_inlays/The Best of the 1980s Vol 2.png";
 import cassetteBestOf1980sVol3GlamMetal from "../images/design_project_photos/cassette_inlays/The Best of the 1980s Vol 3 - Glam Metal.png";
 import cassetteBestOf1980sVol4TheBallads from "../images/design_project_photos/cassette_inlays/The Best of the 1980s Vol 4 - The Ballads.png";
-import cassetteBestOf1980sVol5 from "../images/design_project_photos/cassette_inlays/The Best of the 1980s Vol 5.png";
-import cassetteBestOf1980sVol6 from "../images/design_project_photos/cassette_inlays/The Best of the 1980s Vol 6.png";
 import cassetteKingOfPopCollectionVol1 from "../images/design_project_photos/cassette_inlays/The King of Pop Collection Vol 1.png";
 import cassetteKingOfPopCollectionVol2 from "../images/design_project_photos/cassette_inlays/The King of Pop Collection Vol 2.png";
 import cassetteTohoshinkiJapaneseHitsVol1 from "../images/design_project_photos/cassette_inlays/Tohoshinki The Japanese Hits Vol 1.png";
@@ -48,7 +45,6 @@ import playlistCoverFifthGenKpop from "../images/design_project_photos/spotify_p
 import playlistCoverChildhoodClassics from "../images/design_project_photos/spotify_playlist_covers/Childhood Classics.png";
 import playlistCoverDivorcedDadRock from "../images/design_project_photos/spotify_playlist_covers/Divorced Dad Rock.png";
 import playlistCoverEasyListening from "../images/design_project_photos/spotify_playlist_covers/Easy Listening.png";
-import playlistCoverEmo from "../images/design_project_photos/spotify_playlist_covers/Emo.png";
 import playlistCoverHipHop from "../images/design_project_photos/spotify_playlist_covers/Hip-Hop.png";
 import playlistCoverILoveThe70s from "../images/design_project_photos/spotify_playlist_covers/I Love The 70s.png";
 import playlistCoverILoveThe80s from "../images/design_project_photos/spotify_playlist_covers/I Love The 80s.png";
@@ -57,9 +53,8 @@ import playlistCoverJMusic from "../images/design_project_photos/spotify_playlis
 import playlistCoverMetal from "../images/design_project_photos/spotify_playlist_covers/Metal.png";
 import playlistCoverNightlife from "../images/design_project_photos/spotify_playlist_covers/Nightlife.png";
 import playlistCoverOpm from "../images/design_project_photos/spotify_playlist_covers/OPM.png";
-import playlistCoverPureKpop from "../images/design_project_photos/spotify_playlist_covers/Pure K-Pop.png";
 import playlistCoverSpiritedDriving from "../images/design_project_photos/spotify_playlist_covers/Spirited Driving.png";
-import playlistCoverTohoshinki from "../images/design_project_photos/spotify_playlist_covers/Tohoshinki.png";
+
 import academicCsarch2ExhibitFlyer from "../images/design_project_photos/other_academic_works/CSARCH2 Exhibit - Flyer.png";
 import academicCsarch2ExhibitTableBanner from "../images/design_project_photos/other_academic_works/CSARCH2 Exhibit - Table Banner.png";
 import academicCsarch2ExhibitVerticalPoster from "../images/design_project_photos/other_academic_works/CSARCH2 Exhibit - Vertical Large Poster.png";
@@ -81,7 +76,6 @@ import commissionedBeybladePreludeBefore from "../images/design_project_photos/c
 import commissionedBeybladePreludeAfter from "../images/design_project_photos/commissioned_works/Beyblade X Prelude to Destiny - After.png";
 import commissionedGoalCraftHiringPost from "../images/design_project_photos/commissioned_works/Goal Craft - Hiring Post.png";
 import commissionedGoalCraftOnlineTutors from "../images/design_project_photos/commissioned_works/Goal Craft - Online Tutors.png";
-import commissionedIsuzuTravizRental from "../images/design_project_photos/commissioned_works/Isuzu Traviz Rental.png";
 
 
 
