@@ -101,6 +101,7 @@ const ProjectsContent = () => {
                                 <h6 className="font-semibold wrap-break-word text-[#F5F5F5]">
                                     Portfolio Website
                                 </h6>
+                                <p className="italic text-[#F5F5F5]">(leeroiv.dev)</p>
                             </div>
 
                             {/* Right arrow to denote clickability */}
