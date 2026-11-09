@@ -134,6 +134,7 @@ export const projects = [
         detailLayout: "case-study",
         title: "Portfolio Website",
         thumbnail: portfolioWebsiteThumbnail,
+        subtitle: "(leeroiv.dev)",
         description:
             "My responsive portfolio website built with React and Tailwind CSS, showcasing my projects and skills.",
         dates: "",
@@ -157,6 +158,10 @@ export const projects = [
                 url: "https://leeroiv.dev",
             }
         ],
+        overview:
+            ["'leeroiv.dev' is my personal portfolio website.",
+            "This portfolio website showcases all of my software and design projects, both academic and personal. ",
+            "This website also showcases my skills in software development and UI/UX design." ],
         technologies: ["React", "Next.js", "Tailwind", "Vercel", "Figma"],
         process:
             ["I began by analyzing portfolio websites from other software engineers to study and get some inspiration from their structural patterns, layout hierarchies, and effective design elements.", 
