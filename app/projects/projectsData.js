@@ -323,11 +323,11 @@ export const projects = [
             "As part of a 5-member team, I led the application's UI/UX design, basing design decisions from user research and data collected collaboratively with my teammates."],
         technologies: ["Figma"],
         process:
-            ["Upon the formation of our team, I assumed the role of Lead UI/UX Designer. We initiated the project by drafting a proposal for a companion mobile application designed to help Filipino agricultural workers with disaster resilience and direct-to-consumer sales.",
-            "The team first conducted a targeted need-finding survey among agricultural workers to analyze the main challenges they face. The survey insights we gained helped to establish the core features that needed to be present in the app.", 
-            "I spearheaded the process of translating our initial requirements into a mid-fidelity MVP prototype using Figma, which we then used to discuss and refine the app's feature scope even further based on what was deemed necessary for the app's target users.",
-            "Once the entire feature set was finalized, I spearheaded the high-fidelity design phase by iterating upon the original MVP prototype design. I integrated new features into the prototype while also polishing our app's user interface for a more consistent and elegant user experience.",
-            "We presented a complete business pitch and prototype demonstration to our course professor. The project ended with the submission of our full business plan document, which includes business details such as our unique selling proposition, pricing strategy, and marketing plan."],
+            ["Upon the formation of our team, I assumed the role of Lead UI/UX Designer. We initiated the project by drafting a proposal for a companion mobile application designed to help Filipino agricultural workers with disaster resilience & direct-to-consumer sales.",
+            "The team first conducted a targeted need-finding survey among agricultural workers to analyze the main challenges they face. The survey insights helped establish the core features of the app.", 
+            "I spearheaded the process of translating our initial requirements into a mid-fidelity MVP prototype using Figma, which we then used to discuss and refine the app's feature scope even further.",
+            "Once the entire feature set was finalized, I spearheaded the high-fidelity design phase by iterating upon the original prototype design. I integrated new features while also polishing our app's user interface for a more consistent user experience.",
+            "We presented a complete business pitch and prototype demonstration to our course professor. The project ended with the submission of our full business plan document."],
     },
     {
         slug: "food360",
