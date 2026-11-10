@@ -309,6 +309,10 @@ export const projects = [
                 url: "https://www.figma.com/proto/3LZA5I1E50jQ0g6SNtacxO/AgriGuard---Minimum-Viable-Prototype?node-id=243-675&t=jGTxTYbXGcge9K7V-1&scaling=scale-down&content-scaling=fixed&page-id=243%3A674&starting-point-node-id=243%3A675&show-proto-sidebar=1",
             },
             {
+                label: "Figma Canvas",
+                url: "https://www.figma.com/design/3LZA5I1E50jQ0g6SNtacxO/AgriGuard---Minimum-Viable-Prototype?node-id=0-1&t=4O8gEdDUjFPe8Zcq-1",
+            },
+            {
                 label: "Business Pitch Slides",
                 url: "/downloadables/CCINOV8 AgriGuard Business Pitch Slides.pdf",
                 download: true,
@@ -318,6 +322,12 @@ export const projects = [
             ["AgriGuard is a mobile app prototype specially focused on providing a direct-to-consumer marketplace to Filipino agricultural workers, while also promoting economic resilience & disaster preparedness.",
             "As part of a 5-member team, I led the application's UI/UX design, basing design decisions from user research and data collected collaboratively with my teammates."],
         technologies: ["Figma"],
+        process:
+            ["Upon the formation of our team, I assumed the role of Lead UI/UX Designer. We initiated the project by drafting a proposal for a companion mobile application designed to help Filipino agricultural workers with disaster resilience and direct-to-consumer sales.",
+            "The team first conducted a targeted need-finding survey among agricultural workers to analyze the main challenges they face, such as those related to climate disaster exposures, economic workflows, and digital literacy. The survey insights we gained helped to establish the core features that needed to be present in the app.", 
+            "I began to translate our initial requirements into a mid-fidelity MVP prototype using Figma, which I then presented to the team. This allowed us to discuss component layouts, evaluate usability, and refine the app's feature scope even further based on design feasibility and what we believed was necessary for the target users of the app.",
+            "Once the entire feature set was finalized, I spearheaded the high-fidelity design phase by iterating upon the original MVP prototype design. I first integrated the new features we discussed into the user flow while simultaneously establishing a consistent and polished look to the app's components, visual hierarchy, and UI patterns for a more elegant mobile experience.",
+            "We presented a complete business pitch and interactive app demonstration to our course professor. The project ended with the submission of our full business plan document, which includes important business-related details such as our unique selling proposition (USP), pricing strategy, and marketing plan."],
     },
     {
         slug: "food360",
