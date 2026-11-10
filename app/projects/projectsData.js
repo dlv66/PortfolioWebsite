@@ -366,6 +366,13 @@ export const projects = [
             "As part of a 7-member team, I led the application's UI/UX design, basing design decisions from user research and data collected collaboratively with my teammates."],
         technologies: ["Figma"],
         concepts: ["User Research", "Wireframing", "Iterative Design", "Interactive Prototyping"],
+        process: [
+            "We initiated the project by first performing a need-finding study and analyzing its survey responses on household food management, compiling pain points into Miro, & prioritizing six core problem areas experienced by our target users into individual parallel design solutions.",
+            "The team opted for a parallel storyboard-based design approach in drafting solutions, allowing individual members to rapidly come up with unique low-fidelity solutions for their assigned problems.",
+            "We then conducted internal evaluations to discuss & critique our initial concepts, leading to the merger of our six solutions into three cohesive design directions focused on collaboration, real-time inventory tracking, and budget prioritization.",
+            "Transitioning to Figma, I spearheaded the creation of our high-fidelity interactive prototype, combining virtual food storage views, receipt scanning capabilities, & cross-member family carts into a unified application architecture.",
+            "We conducted iterative usability testing across multiple checkpoints to refine our interface, culminating in Food360's presentation at our course's HCI convention."
+        ]
     },
     {
         slug: "academic-design-works",
