@@ -93,7 +93,7 @@ export const projects = [
         role: ["Lead UI/UX Designer", "Frontend Engineer"],
         context: "Bachelor's Thesis Project",
         type: "Progressive Web Application (PWA)",
-        techstack: ["React", "Supabase", "Vercel"],
+        techstack: ["React.js", "Supabase", "Vercel"],
         team: "4 members",
         status: "Feature-complete",
         links: [
@@ -119,7 +119,7 @@ export const projects = [
             ["PisoCAKE is a finance-tracking progressive web application (PWA) that enabled users to set financial goals, log transactions, and monitor spending.",
             "As part of a thesis team, I led the end-to-end UI/UX design and iterative prototyping, producing high-fidelity prototypes and translating them into a production-ready frontend.",
             "I also implemented responsive component-based architecture and contributed to data model design."],
-        technologies: ["React", "Next.js", "Typescript", "Tailwind", "Figma"],
+        technologies: ["React.js", "Next.js", "Typescript", "Tailwind CSS", "Figma"],
         concepts: ["Wireframing", "Iterative Design", "User Flows", "Responsive Design", "Interactive Prototyping", "Usability Testing"],
         process:
             ["Our team adopted the double-diamond design framework as the methodological foundation for the design and development of our thesis work.", 
@@ -136,12 +136,12 @@ export const projects = [
         thumbnail: portfolioWebsiteThumbnail,
         subtitle: "(leeroiv.dev)",
         description:
-            "My responsive portfolio website built with React and Tailwind CSS, showcasing my projects and skills.",
+            "My responsive portfolio website built with React.js and Tailwind CSS, showcasing my projects and skills.",
         dates: "",
         // Should add Roles back, after migrating data from single .js file to a MongoDB database.
         context: "Personal Portfolio",
         type: "Website", // Should make this "Responsive Website" after implementing responsive design for mobile viewing.
-        techstack: ["React", "Next.js", "Tailwind", "Vercel"],
+        techstack: ["React.js", "Next.js", "Tailwind CSS", "Vercel"],
         team: "Sole developer",
         status: "Work-in-progress",
         links: [
@@ -162,11 +162,11 @@ export const projects = [
             ["'leeroiv.dev' is my personal portfolio website.",
             "This portfolio website showcases all of my software and design projects, both academic and personal. ",
             "This website also showcases my skills in software development and UI/UX design." ],
-        technologies: ["React", "Next.js", "Tailwind", "Vercel", "Figma"],
+        technologies: ["React.js", "Next.js", "Tailwind CSS", "Vercel", "Figma"],
         process:
             ["I began by analyzing portfolio websites from other software engineers to study and get some inspiration from their structural patterns, layout hierarchies, and effective design elements.", 
             "From the design insights I gained, I then translated my ideas into a high-fidelity Figma prototype, establishing the initial layout, color scheme, and typography of how I wanted my own portfolio website to look.",
-            "I then brought the high-fidelity prototypes into fruition using React, Next.js, and Tailwind CSS, choosing to use my go-to tech stack for quick and simple app development.",
+            "I then brought the high-fidelity prototypes into fruition using React.js, Next.js, and Tailwind CSS, choosing to use my go-to tech stack for quick and simple app development.",
             "Midway through implementation, I identified a spatial inefficiency with my initial design, where content was overly weighted to the right side of the screen. I returned to Figma to rapidly prototype a layout redesign, then refactored the codebase to implement the new centered structure with minor refinements and adjustments along the way.",],
     },
     {
@@ -222,7 +222,7 @@ export const projects = [
         role: ["Lead UI/UX Designer", "Frontend Engineer"],
         context: "CSSWENG (Software Engineering) Course Project",
         type: "Website",
-        techstack: ["MongoDB", "Express.js", "React", "Node.js"],
+        techstack: ["MongoDB", "Express.js", "React.js", "Node.js"],
         team: "9 members",
         status: "Feature-complete",
         links: [
@@ -244,7 +244,7 @@ export const projects = [
         overview:
             ["JPDGarage is a web-based finance and inventory management system for JPDGarage, a motorcycle parts business in Siniloan, Laguna, Philippines.",
             "As part of a 9-member team, I led the UI/UX design, and worked on frontend development of the web application."],
-        technologies: ["JavaScript", "React", "Bootstrap", "Figma"],
+        technologies: ["JavaScript", "React.js", "Bootstrap", "Figma"],
         concepts: ["Agile Methodology", "Web App Development", "Wireframing", "User Flows",],
         process:
             ["Working closely with a real-world product owner under an Agile framework, our team kicked off Sprint 0 with comprehensive client alignment, business requirements gathering, and architecture planning for the web app.", 

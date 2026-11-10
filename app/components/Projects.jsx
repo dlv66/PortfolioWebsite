@@ -61,9 +61,9 @@ const ProjectsContent = () => {
                         <div className="flex flex-wrap gap-2 pt-2">
                             {[
                                 "TypeScript",
-                                "React",
+                                "React.js",
                                 "Next.js",
-                                "Tailwind",
+                                "Tailwind CSS",
                                 "Figma",
                             ].map((tech) => (
                                 <span
@@ -116,9 +116,9 @@ const ProjectsContent = () => {
                         <div className="flex flex-wrap gap-2 pt-2">
                             {[
                                 "TypeScript",
-                                "React",
+                                "React.js",
                                 "Next.js",
-                                "Tailwind",
+                                "Tailwind CSS",
                                 "Figma",
                             ].map((tech) => (
                                 <span
@@ -221,7 +221,7 @@ const ProjectsContent = () => {
 
                         {/* Technologies used in the project */}
                         <div className="flex flex-wrap gap-2 pt-2">
-                            {["JavaScript", "React", "Bootstrap", "Figma"].map((tech) => (
+                            {["JavaScript", "React.js", "Bootstrap", "Figma"].map((tech) => (
                                 <span
                                     key={tech}
                                     className="w-fit rounded-full bg-[#08452F] px-2.5 py-1 text-sm font-medium text-[#4EFF9E]"
