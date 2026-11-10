@@ -322,6 +322,7 @@ export const projects = [
             ["AgriGuard is a mobile app prototype specially focused on providing a direct-to-consumer marketplace to Filipino agricultural workers, while also promoting economic resilience & disaster preparedness.",
             "As part of a 5-member team, I led the application's UI/UX design, basing design decisions from user research and data collected collaboratively with my teammates."],
         technologies: ["Figma"],
+        concepts: ["Wireframing", "Iterative Design", "User Research", "Interactive Prototyping"],
         process:
             ["Upon the formation of our team, I assumed the role of Lead UI/UX Designer. We initiated the project by drafting a proposal for a companion mobile application designed to help Filipino agricultural workers with disaster resilience & direct-to-consumer sales.",
             "The team first conducted a targeted need-finding survey among agricultural workers to analyze the main challenges they face. The survey insights helped establish the core features of the app.", 
@@ -364,6 +365,7 @@ export const projects = [
             ["Food360 is a mobile app prototype designed to help Filipino families manage their home food stocks and consumption.",
             "As part of a 7-member team, I led the application's UI/UX design, basing design decisions from user research and data collected collaboratively with my teammates."],
         technologies: ["Figma"],
+        concepts: ["User Research", "Wireframing", "Iterative Design", "Interactive Prototyping"],
     },
     {
         slug: "academic-design-works",
