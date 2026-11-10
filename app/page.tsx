@@ -6,10 +6,12 @@ import Experience from "./components/Experience.jsx";
 import Projects from "./components/Projects.jsx";
 import Skills from "./components/Skills.jsx";
 import End from "./components/End.jsx";
+import MobileNotice from "./components/MobileNotice";
 
 export default function Home() {
   return (
     <main className="relative min-h-screen font-sans text-slate-100">
+      <MobileNotice />
       {/* Background Layer */}
       <div className="absolute inset-0 z-0 min-h-full w-full bg-gradient-to-b from-[#04844D] via-[#075631] to-[#164A32]">
         {/* Dot Matrix Pattern */}
