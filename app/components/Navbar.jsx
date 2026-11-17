@@ -40,7 +40,7 @@ const Navbar = () => {
                         />
                     }
                 >
-                    {isOpen ? <X size={40} /> : <Menu size={40} />}
+                    <Menu size={32} />
                 </SheetTrigger>
 
                 <SheetContent
@@ -49,13 +49,13 @@ const Navbar = () => {
                     showCloseButton={false}
                     className="w-3/4 max-w-sm border-[#e7fff2]/20 bg-[#04844D] p-6 text-[#e7fff2]"
                 >
-                    <div className="flex items-center justify-between border-b border-[#e7fff2]/20 pb-4">
+                    <div className="flex items-center justify-between border-b border-[#e7fff2]/20 pt-[18px] pb-4">
                         <SheetTitle className="text-lg font-semibold text-[#e7fff2]">
                             leeroiv.dev
                         </SheetTitle>
                         <SheetClose
                             aria-label="Close navigation menu"
-                            className="flex size-12 items-center justify-center rounded-lg text-[#e7fff2] transition-colors hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                            className="absolute top-8 right-4 flex size-12 items-center justify-center rounded-lg text-[#e7fff2] transition-colors hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                         >
                             <X size={32} />
                         </SheetClose>
