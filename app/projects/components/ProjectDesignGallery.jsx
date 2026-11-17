@@ -252,7 +252,7 @@ export default function ProjectDesignGallery({ project }) {
                                     <button
                                         type="button"
                                         onClick={() => setIsCaptionExpanded(false)}
-                                        className="block text-green-200 underline underline-offset-2 hover:text-white lg:inline"
+                                        className="block text-green-200 underline underline-offset-2 hover:text-white lg:inline mt-2 lg:mt-0"
                                     >
                                         See less
                                     </button>
