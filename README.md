@@ -1,6 +1,6 @@
-# Denis Leeroi Villamiel — Portfolio Website
+# Portfolio Website
 
-My personal portfolio that showcases my education, experience, academic projects, and skills. This is mostly used to present my previous projects as someone who has worked on UI/UX and frontend roles in university.
+My personal portfolio that showcases my education, experience, academic projects, and skills. This is mostly used to present my previous projects, as someone who has primarily worked on UI/UX and frontend roles in university.
 
 ## Tech Stack
 
