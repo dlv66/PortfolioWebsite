@@ -51,7 +51,7 @@ const SkillsContent = () => {
                     <div className="flex flex-col gap-4">
                         <p className="font-semibold text-[#F5F5F5]">Frontend Development</p>
 
-                        <div className="grid grid-cols-4 gap-4 lg:grid-cols-2 [&>div]:items-center [&>div>p]:text-center [&>div>p]:text-sm lg:[&>div>p]:text-base">
+                        <div className="grid grid-cols-4 gap-4 lg:grid-cols-2 [&>div]:items-center [&>div>p]:min-w-0 [&>div>p]:text-center [&>div>p]:text-sm lg:[&>div>p]:flex-1 lg:[&>div>p]:text-left lg:[&>div>p]:text-base">
 
                             <div className="flex flex-col items-center gap-4 lg:flex-row">
                                 <Image
@@ -85,7 +85,7 @@ const SkillsContent = () => {
                             </div>
                             <div className="flex flex-col items-center gap-4 lg:flex-row">
                                 <Image src={tailwindImage} alt="Tailwind CSS Logo" width={60} height={60} className="rounded-xl bg-gray-900 p-2 object-contain" />
-                                <p className="whitespace-nowrap">
+                                <p className="whitespace-nowrap lg:whitespace-normal">
                                     <span className="lg:hidden">Tailwind</span>
                                     <span className="hidden lg:inline">Tailwind CSS</span>
                                 </p>
@@ -102,7 +102,7 @@ const SkillsContent = () => {
                     <div className="flex flex-col gap-4">
                         <p className="font-semibold text-[#F5F5F5]">Design & UI/UX</p>
 
-                        <div className="grid grid-cols-4 gap-4 lg:grid-cols-2 [&>div]:items-center [&>div>p]:text-center [&>div>p]:text-sm lg:[&>div>p]:text-base">
+                        <div className="grid grid-cols-4 gap-4 lg:grid-cols-2 [&>div]:items-center [&>div>p]:min-w-0 [&>div>p]:text-center [&>div>p]:text-sm lg:[&>div>p]:flex-1 lg:[&>div>p]:text-left lg:[&>div>p]:text-base">
 
                             <div className="flex flex-col items-center gap-4 lg:flex-row">
                                 <Image src={figmaImage} alt="Figma Logo" width={60} height={60} className="rounded-xl bg-gray-950 p-2 object-contain" />
@@ -136,7 +136,7 @@ const SkillsContent = () => {
                     <div className="flex flex-col gap-4">
                         <p className="font-semibold text-[#F5F5F5]">Backend & Database</p>
 
-                        <div className="grid grid-cols-4 gap-4 lg:grid-cols-2 [&>div]:items-center [&>div>p]:text-center [&>div>p]:text-sm lg:[&>div>p]:text-base">
+                        <div className="grid grid-cols-4 gap-4 lg:grid-cols-2 [&>div]:items-center [&>div>p]:min-w-0 [&>div>p]:text-center [&>div>p]:text-sm lg:[&>div>p]:flex-1 lg:[&>div>p]:text-left lg:[&>div>p]:text-base">
 
                             <div className="flex flex-col items-center gap-4 lg:flex-row">
                                 <Image src={nodeImage} alt="Node.js Logo" width={60} height={60} className="rounded-xl bg-white p-2 object-contain" />
@@ -166,7 +166,7 @@ const SkillsContent = () => {
                     <div className="flex flex-col gap-4">
                         <p className="font-semibold text-[#F5F5F5]">Other Languages</p>
 
-                        <div className="grid grid-cols-4 gap-4 lg:grid-cols-2 [&>div]:items-center [&>div>p]:text-center [&>div>p]:text-sm lg:[&>div>p]:text-base">
+                        <div className="grid grid-cols-4 gap-4 lg:grid-cols-2 [&>div]:items-center [&>div>p]:min-w-0 [&>div>p]:text-center [&>div>p]:text-sm lg:[&>div>p]:flex-1 lg:[&>div>p]:text-left lg:[&>div>p]:text-base">
 
                             <div className="flex flex-col items-center gap-4 lg:flex-row">
                                 <Image src={javaImage} alt="Java Logo" width={60} height={60} className="rounded-xl bg-white p-2 object-contain" />
@@ -200,7 +200,7 @@ const SkillsContent = () => {
                     <div className="flex flex-col gap-4">
                         <p className="font-semibold text-[#F5F5F5]">Tools & Platforms</p>
 
-                        <div className="grid grid-cols-4 gap-4 lg:grid-cols-2 [&>div]:items-center [&>div>p]:text-center [&>div>p]:text-sm lg:[&>div>p]:text-base">
+                        <div className="grid grid-cols-4 gap-4 lg:grid-cols-2 [&>div]:items-center [&>div>p]:min-w-0 [&>div>p]:text-center [&>div>p]:text-sm lg:[&>div>p]:flex-1 lg:[&>div>p]:text-left lg:[&>div>p]:text-base">
 
                             <div className="flex flex-col items-center gap-4 lg:flex-row">
                                 <Image src={gitImage} alt="Git Logo" width={60} height={60} className="rounded-xl bg-white p-2 object-contain" />
@@ -220,14 +220,14 @@ const SkillsContent = () => {
                             </div>
                             <div className="flex flex-col items-center gap-4 lg:flex-row">
                                 <Image src={awsImage} alt="Amazon Web Services Logo" width={60} height={60} className="rounded-xl bg-white p-2 object-contain" />
-                                <p className="whitespace-nowrap">
+                                <p className="whitespace-nowrap lg:whitespace-normal">
                                     <span className="lg:hidden">AWS</span>
                                     <span className="hidden lg:inline">Amazon Web Services</span>
                                 </p>
                             </div>
                             <div className="flex flex-col items-center gap-4 lg:flex-row">
                                 <Image src={vsCodeImage} alt="Visual Studio Code Logo" width={60} height={60} className="rounded-xl bg-white p-2 object-contain" />
-                                <p className="whitespace-nowrap">
+                                <p className="whitespace-nowrap lg:whitespace-normal">
                                     <span className="lg:hidden">VS Code</span>
                                     <span className="hidden lg:inline">Visual Studio Code</span>
                                 </p>
