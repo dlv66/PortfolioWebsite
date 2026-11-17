@@ -24,7 +24,7 @@ const ProjectsContent = () => {
                 {/* PROJECT 1 - PisoCAKE Thesis*/}
                 <Link 
                     href={`/projects/${pisoCakeProject.slug}`} 
-                    className="group flex min-w-0 flex-row gap-8 rounded-xl p-4 transition-colors hover:bg-black/18 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#4EFF9E]"
+                    className="group flex min-w-0 flex-col lg:flex-row gap-8 rounded-xl p-4 transition-colors hover:bg-black/18 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#4EFF9E]"
                 >
 
                     <div className="relative w-80 h-45 overflow-hidden rounded-lg shrink-0 group-hover:bg-black/10 transition-colors">
@@ -81,7 +81,7 @@ const ProjectsContent = () => {
                 {/* PROJECT 2 - PORTFOLIO WEBSITE */}
                 <Link 
                     href={`/projects/${portfolioWebsiteProject.slug}`} 
-                    className="group flex min-w-0 flex-row gap-8 rounded-xl p-4 transition-colors hover:bg-black/18 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#4EFF9E]"
+                    className="group flex min-w-0 flex-col lg:flex-row gap-8 rounded-xl p-4 transition-colors hover:bg-black/18 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#4EFF9E]"
                 >
                     <div className="relative w-80 h-45 overflow-hidden rounded-lg shrink-0 group-hover:bg-black/10 transition-colors">
                         {portfolioWebsiteProject?.thumbnail && (
@@ -135,7 +135,7 @@ const ProjectsContent = () => {
                 {/* PROJECT 3 - My Wander Diary */}
                 <Link 
                     href={`/projects/${myWanderDiaryProject.slug}`}
-                    className="group flex min-w-0 flex-row gap-8 rounded-xl p-4 transition-colors hover:bg-black/18 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#4EFF9E]"
+                    className="group flex min-w-0 flex-col lg:flex-row gap-8 rounded-xl p-4 transition-colors hover:bg-black/18 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#4EFF9E]"
                 >
                     <div className="relative w-80 h-45 overflow-hidden rounded-lg shrink-0 group-hover:bg-black/10 transition-colors">
                         {myWanderDiaryProject?.thumbnail && (
@@ -188,7 +188,7 @@ const ProjectsContent = () => {
                 {/* PROJECT 4 - JPD Garage Online Management System */}
                 <Link 
                     href={`/projects/${jpdGarageProject.slug}`} 
-                    className="group flex min-w-0 flex-row gap-8 rounded-xl p-4 transition-colors hover:bg-black/18 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#4EFF9E]"
+                    className="group flex min-w-0 flex-col lg:flex-row gap-8 rounded-xl p-4 transition-colors hover:bg-black/18 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#4EFF9E]"
                 >
                     <div className="relative w-80 h-45 overflow-hidden rounded-lg shrink-0 group-hover:bg-black/10 transition-colors">
                         {jpdGarageProject?.thumbnail && (

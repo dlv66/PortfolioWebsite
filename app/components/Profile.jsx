@@ -53,15 +53,16 @@ function ContactIcon({ Icon }) {
 
 const Profile = () => {
     return (
-        <div className="flex flex-row items-start justify-between gap-4 pt-8 pb-4">
-            <div className="flex flex-col gap-4">
+        <div className="flex flex-col lg:flex-row items-start justify-between gap-4 pt-4 lg:pt-8 pb-4">
+
+            <div className="flex flex-col lg:gap-4">
                 {/* Name */}
-                <h1 className="text-5xl font-bold text-white">
+                <h1 className="text-3xl lg:text-5xl font-bold text-white pb-2 lg:pb-0">
                     Denis Leeroi Villamiel
                 </h1>
 
                 {/* Education and Job Title */}
-                <div className="flex flex-col text-xl text-green-100 gap-1">
+                <div className="flex flex-col text-lg lg:text-xl text-green-100 lg:gap-1 pb-4 lg:pb-0">
                     <h3 className="">
                         BS Computer Science Graduate
                     </h3>
@@ -72,7 +73,7 @@ const Profile = () => {
                 </div>
 
                 {/* Social Media / Contact Information */}
-                <div className="flex flex-row items-center gap-4">
+                <div className="flex flex-row items-center gap-4 pb-4 lg:pb-0">
                     <a
                         href={contacts.github}
                         target="_blank"
@@ -114,13 +115,14 @@ const Profile = () => {
                 </div>
             </div>
 
-            <div className="shrink-0">
+
+            <div className="mt-2 shrink-0 overflow-hidden hidden md:block rounded-xl lg:mt-0 lg:rounded-2xl">
                 <Image
                     src={profileImage}
                     alt="Denis Leeroi Villamiel"
                     width={240}
                     height={240}
-                    className="rounded-2xl"
+                    className="block rounded-xl lg:rounded-2xl"
                 />
             </div>
         </div>

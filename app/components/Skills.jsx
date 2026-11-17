@@ -45,15 +45,15 @@ const SkillsContent = () => {
             {/* Overarching div */}
             <div className="flex flex-col gap-2">
 
-                <div className="grid grid-cols-2 gap-12">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
 
                     {/* Frontend Development */}
                     <div className="flex flex-col gap-4">
                         <p className="font-semibold text-[#F5F5F5]">Frontend Development</p>
 
-                        <div className="grid grid-cols-2 gap-4 [&>div]:items-center">
+                        <div className="grid grid-cols-4 gap-4 lg:grid-cols-2 [&>div]:items-center [&>div>p]:text-center [&>div>p]:text-sm lg:[&>div>p]:text-base">
 
-                            <div className="flex flex-row gap-4 items-center">
+                            <div className="flex flex-col items-center gap-4 lg:flex-row">
                                 <Image
                                     src={reactImage}
                                     alt="React Logo"
@@ -63,31 +63,34 @@ const SkillsContent = () => {
                                 />
                                 <p> React </p>
                             </div>
-                            <div className="flex flex-row gap-4 items-center">
+                            <div className="flex flex-col items-center gap-4 lg:flex-row">
                                 <Image src={nextImage} alt="Next.js Logo" width={60} height={60} className="rounded-xl object-contain" />
                                 <p> Next.js </p>
                             </div>
-                            <div className="flex flex-row gap-4 items-center">
+                            <div className="flex flex-col items-center gap-4 lg:flex-row">
                                 <Image src={typescriptImage} alt="TypeScript Logo" width={60} height={60} className="rounded-xl object-contain" />
                                 <p> TypeScript </p>
                             </div>
-                            <div className="flex flex-row gap-4 items-center">
+                            <div className="flex flex-col items-center gap-4 lg:flex-row">
                                 <Image src={javascriptImage} alt="JavaScript Logo" width={60} height={60} className="rounded-xl object-contain" />
                                 <p> JavaScript </p>
                             </div>
-                            <div className="flex flex-row gap-4 items-center">
+                            <div className="flex flex-col items-center gap-4 lg:flex-row">
                                 <Image src={htmlImage} alt="HTML Logo" width={60} height={60} className="rounded-xl bg-white p-2 object-contain" />
                                 <p> HTML </p>
                             </div>
-                            <div className="flex flex-row gap-4 items-center">
+                            <div className="flex flex-col items-center gap-4 lg:flex-row">
                                 <Image src={cssImage} alt="CSS Logo" width={60} height={60} className="rounded-xl bg-white p-2 object-contain" />
                                 <p> CSS </p>
                             </div>
-                            <div className="flex flex-row gap-4 items-center">
+                            <div className="flex flex-col items-center gap-4 lg:flex-row">
                                 <Image src={tailwindImage} alt="Tailwind CSS Logo" width={60} height={60} className="rounded-xl bg-gray-900 p-2 object-contain" />
-                                <p> Tailwind CSS </p>
+                                <p className="whitespace-nowrap">
+                                    <span className="lg:hidden">Tailwind</span>
+                                    <span className="hidden lg:inline">Tailwind CSS</span>
+                                </p>
                             </div>
-                            <div className="flex flex-row gap-4 items-center">
+                            <div className="flex flex-col items-center gap-4 lg:flex-row">
                                 <Image src={bootstrapImage} alt="Bootstrap Logo" width={60} height={60} className="rounded-xl bg-white object-contain" />
                                 <p> Bootstrap </p>
                             </div>
@@ -99,29 +102,29 @@ const SkillsContent = () => {
                     <div className="flex flex-col gap-4">
                         <p className="font-semibold text-[#F5F5F5]">Design & UI/UX</p>
 
-                        <div className="grid grid-cols-2 gap-4 [&>div]:items-center">
+                        <div className="grid grid-cols-4 gap-4 lg:grid-cols-2 [&>div]:items-center [&>div>p]:text-center [&>div>p]:text-sm lg:[&>div>p]:text-base">
 
-                            <div className="flex flex-row gap-4 items-center">
+                            <div className="flex flex-col items-center gap-4 lg:flex-row">
                                 <Image src={figmaImage} alt="Figma Logo" width={60} height={60} className="rounded-xl bg-gray-950 p-2 object-contain" />
                                 <p> Figma </p>
                             </div>
-                            <div className="flex flex-row gap-4 items-center">
+                            <div className="flex flex-col items-center gap-4 lg:flex-row">
                                 <Image src={wireframingImage} alt="Wireframing" width={60} height={60} className="rounded-xl bg-white p-2 object-contain" />
                                 <p> Wireframing </p>
                             </div>
-                            <div className="flex flex-row gap-4 items-center">
+                            <div className="flex flex-col items-center gap-4 lg:flex-row">
                                 <Image src={userFlowsImage} alt="User Flows" width={60} height={60} className="rounded-xl bg-white p-2 object-contain" />
                                 <p> User Flows </p>
                             </div>
-                            <div className="flex flex-row gap-4 items-center">
+                            <div className="flex flex-col items-center gap-4 lg:flex-row">
                                 <Image src={interactivePrototypingImage} alt="Interactive Prototyping" width={60} height={60} className="rounded-xl bg-white p-2 object-contain" />
                                 <p> Interactive Prototyping </p>
                             </div>
-                            <div className="flex flex-row gap-4 items-center">
+                            <div className="flex flex-col items-center gap-4 lg:flex-row">
                                 <Image src={responsiveDesignImage} alt="Responsive Design" width={60} height={60} className="rounded-xl bg-white p-2 object-contain" />
                                 <p> Responsive Design </p>
                             </div>
-                            <div className="flex flex-row gap-4 items-center">
+                            <div className="flex flex-col items-center gap-4 lg:flex-row">
                                 <Image src={iterativeDesignImage} alt="Iterative Design" width={60} height={60} className="rounded-xl bg-white p-2 object-contain" />
                                 <p> Iterative Design </p>
                             </div>
@@ -133,25 +136,25 @@ const SkillsContent = () => {
                     <div className="flex flex-col gap-4">
                         <p className="font-semibold text-[#F5F5F5]">Backend & Database</p>
 
-                        <div className="grid grid-cols-2 gap-4 [&>div]:items-center">
+                        <div className="grid grid-cols-4 gap-4 lg:grid-cols-2 [&>div]:items-center [&>div>p]:text-center [&>div>p]:text-sm lg:[&>div>p]:text-base">
 
-                            <div className="flex flex-row gap-4 items-center">
+                            <div className="flex flex-col items-center gap-4 lg:flex-row">
                                 <Image src={nodeImage} alt="Node.js Logo" width={60} height={60} className="rounded-xl bg-white p-2 object-contain" />
                                 <p> Node.js </p>
                             </div>
-                            <div className="flex flex-row gap-4 items-center">
+                            <div className="flex flex-col items-center gap-4 lg:flex-row">
                                 <Image src={expressImage} alt="Express.js Logo" width={60} height={60} className="rounded-xl object-contain" />
                                 <p> Express.js </p>
                             </div>
-                            <div className="flex flex-row gap-4 items-center">
+                            <div className="flex flex-col items-center gap-4 lg:flex-row">
                                 <Image src={supabaseImage} alt="Supabase Logo" width={60} height={60} className="rounded-xl bg-[#202020] p-3 object-contain" />
                                 <p> Supabase </p>
                             </div>
-                            <div className="flex flex-row gap-4 items-center">
+                            <div className="flex flex-col items-center gap-4 lg:flex-row">
                                 <Image src={mysqlImage} alt="MySQL Logo" width={60} height={60} className="rounded-xl bg-white p-2 object-contain" />
                                 <p> MySQL </p>
                             </div>
-                            <div className="flex flex-row gap-4 items-center">
+                            <div className="flex flex-col items-center gap-4 lg:flex-row">
                                 <Image src={mongodbImage} alt="MongoDB Logo" width={60} height={60} className="rounded-xl bg-white p-2 object-contain" />
                                 <p> MongoDB </p>
                             </div>
@@ -163,29 +166,29 @@ const SkillsContent = () => {
                     <div className="flex flex-col gap-4">
                         <p className="font-semibold text-[#F5F5F5]">Other Languages</p>
 
-                        <div className="grid grid-cols-2 gap-4 [&>div]:items-center">
+                        <div className="grid grid-cols-4 gap-4 lg:grid-cols-2 [&>div]:items-center [&>div>p]:text-center [&>div>p]:text-sm lg:[&>div>p]:text-base">
 
-                            <div className="flex flex-row gap-4 items-center">
+                            <div className="flex flex-col items-center gap-4 lg:flex-row">
                                 <Image src={javaImage} alt="Java Logo" width={60} height={60} className="rounded-xl bg-white p-2 object-contain" />
                                 <p> Java </p>
                             </div>
-                            <div className="flex flex-row gap-4 items-center">
+                            <div className="flex flex-col items-center gap-4 lg:flex-row">
                                 <Image src={pythonImage} alt="Python Logo" width={60} height={60} className="rounded-xl bg-cyan-950 p-2 object-contain" />
                                 <p> Python </p>
                             </div>
-                            <div className="flex flex-row gap-4 items-center">
+                            <div className="flex flex-col items-center gap-4 lg:flex-row">
                                 <Image src={cImage} alt="C Logo" width={60} height={60} className="rounded-xl bg-white p-2 object-contain" />
                                 <p> C </p>
                             </div>
-                            <div className="flex flex-row gap-4 items-center">
+                            <div className="flex flex-col items-center gap-4 lg:flex-row">
                                 <Image src={csharpImage} alt="C Sharp Logo" width={60} height={60} className="rounded-xl bg-white p-2 object-contain" />
                                 <p> C# </p>
                             </div>
-                            <div className="flex flex-row gap-4 items-center">
+                            <div className="flex flex-col items-center gap-4 lg:flex-row">
                                 <Image src={kotlinImage} alt="Kotlin Logo" width={60} height={60} className="rounded-xl bg-[#1f1f1f] p-3 object-contain" />
                                 <p> Kotlin </p>
                             </div>
-                            <div className="flex flex-row gap-4 items-center">
+                            <div className="flex flex-col items-center gap-4 lg:flex-row">
                                 <Image src={sqlImage} alt="SQL Logo" width={60} height={60} className="rounded-xl bg-white p-2 object-contain" />
                                 <p> SQL </p>
                             </div>
@@ -197,41 +200,47 @@ const SkillsContent = () => {
                     <div className="flex flex-col gap-4">
                         <p className="font-semibold text-[#F5F5F5]">Tools & Platforms</p>
 
-                        <div className="grid grid-cols-2 gap-4 [&>div]:items-center">
+                        <div className="grid grid-cols-4 gap-4 lg:grid-cols-2 [&>div]:items-center [&>div>p]:text-center [&>div>p]:text-sm lg:[&>div>p]:text-base">
 
-                            <div className="flex flex-row gap-4 items-center">
+                            <div className="flex flex-col items-center gap-4 lg:flex-row">
                                 <Image src={gitImage} alt="Git Logo" width={60} height={60} className="rounded-xl bg-white p-2 object-contain" />
                                 <p> VCS (Git) </p>
                             </div>
-                            <div className="flex flex-row gap-4 items-center">
+                            <div className="flex flex-col items-center gap-4 lg:flex-row">
                                 <Image src={githubImage} alt="GitHub Logo" width={60} height={60} className="rounded-xl bg-[#24292f] p-2 object-contain" />
                                 <p> GitHub </p>
                             </div>
-                            <div className="flex flex-row gap-4 items-center">
+                            <div className="flex flex-col items-center gap-4 lg:flex-row">
                                 <Image src={vercelImage} alt="Vercel Logo" width={60} height={60} className="rounded-xl object-contain" />
                                 <p> Vercel </p>
                             </div>
-                            <div className="flex flex-row gap-4 items-center">
+                            <div className="flex flex-col items-center gap-4 lg:flex-row">
                                 <Image src={dockerImage} alt="Docker Logo" width={60} height={60} className="rounded-xl bg-white p-2 object-contain" />
                                 <p> Docker </p>
                             </div>
-                            <div className="flex flex-row gap-4 items-center">
+                            <div className="flex flex-col items-center gap-4 lg:flex-row">
                                 <Image src={awsImage} alt="Amazon Web Services Logo" width={60} height={60} className="rounded-xl bg-white p-2 object-contain" />
-                                <p> Amazon Web Services </p>
+                                <p className="whitespace-nowrap">
+                                    <span className="lg:hidden">AWS</span>
+                                    <span className="hidden lg:inline">Amazon Web Services</span>
+                                </p>
                             </div>
-                            <div className="flex flex-row gap-4 items-center">
+                            <div className="flex flex-col items-center gap-4 lg:flex-row">
                                 <Image src={vsCodeImage} alt="Visual Studio Code Logo" width={60} height={60} className="rounded-xl bg-white p-2 object-contain" />
-                                <p> Visual Studio Code </p>
+                                <p className="whitespace-nowrap">
+                                    <span className="lg:hidden">VS Code</span>
+                                    <span className="hidden lg:inline">Visual Studio Code</span>
+                                </p>
                             </div>
-                            <div className="flex flex-row gap-4 items-center">
+                            <div className="flex flex-col items-center gap-4 lg:flex-row">
                                 <Image src={cursorIDEImage} alt="Cursor IDE Logo" width={60} height={60} className="rounded-xl object-contain" />
                                 <p> Cursor IDE </p>
                             </div>
-                            <div className="flex flex-row gap-4 items-center">
+                            <div className="flex flex-col items-center gap-4 lg:flex-row">
                                 <Image src={androidStudioImage} alt="Android Studio Logo" width={60} height={60} className="rounded-xl bg-gray-900 p-2 object-contain" />
                                 <p> Android Studio </p>
                             </div>
-                            <div className="flex flex-row gap-4 items-center">
+                            <div className="flex flex-col items-center gap-4 lg:flex-row">
                                 <Image src={intellijImage} alt="IntelliJ Logo" width={60} height={60} className="rounded-xl bg-white p-2 object-contain" />
                                 <p> IntelliJ </p>
                             </div>
