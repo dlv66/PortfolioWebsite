@@ -140,10 +140,9 @@ export const projects = [
         dates: "",
         // Should add Roles back, after migrating data from single .js file to a MongoDB database.
         context: "Personal Portfolio",
-        type: "Website", // Should make this "Responsive Website" after implementing responsive design for mobile viewing.
+        type: "Responsive Website",
         techstack: ["React.js", "Next.js", "Tailwind CSS", "Vercel"],
         team: "Sole developer",
-        status: "Work-in-progress",
         links: [
             {
                 label: "GitHub Repository",
