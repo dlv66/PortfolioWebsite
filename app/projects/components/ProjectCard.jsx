@@ -6,7 +6,7 @@ export default function ProjectCard({ project }) {
     return (
         <Link
             href={`/projects/${project.slug}`}
-            className="group flex min-w-0 flex-row gap-8 rounded-xl p-4 transition-colors hover:bg-black/18 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#4EFF9E]"
+            className="group flex min-w-0 flex-col gap-8 rounded-xl p-4 transition-colors hover:bg-black/18 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#4EFF9E] lg:flex-row"
         >
             <div className="relative h-45 w-80 shrink-0 overflow-hidden rounded-lg transition-colors group-hover:bg-black/10">
                 {project.thumbnail && (

@@ -142,16 +142,16 @@ export default function ProjectDesignGallery({ project }) {
     }, []);
 
     return (
-        <article className="flex min-w-0 flex-col gap-8 py-4 text-white">
+        <article className="flex min-w-0 flex-col gap-8 pt-2 lg:pt-4 pb-4 text-white">
             <Link 
                 href="/projects" 
-                className="w-fit hover:underline"
+                className="w-fit hover:underline pb-2 lg:pb-0"
             >
                 <span className="text-sm font-semibold">←</span> All projects
             </Link>
 
             <header className="flex flex-col gap-3">
-                <h1 className="text-4xl font-bold text-[#F5F5F5]">{project.title}</h1>
+                <h1 className="text-2xl lg:text-4xl font-bold text-[#F5F5F5]">{project.title}</h1>
                 {project.description && (
                     <p className="max-w-3xl leading-relaxed text-[#DFDFDF]">
                         {project.description}
@@ -172,7 +172,7 @@ export default function ProjectDesignGallery({ project }) {
                         <CarouselContent>
                             {gallery.map((item, index) => (
                                 <CarouselItem key={`${item.caption}-${index}`}>
-                                    <div className="relative flex aspect-video items-center justify-center">
+                                    <div className="relative flex aspect-[4/5] items-center justify-center lg:aspect-video">
                                         {item.src ? (
                                             <Image
                                                 src={item.src}
@@ -230,29 +230,32 @@ export default function ProjectDesignGallery({ project }) {
                     {gallery[selectedIndex] && (gallery[selectedIndex].caption || gallery[selectedIndex].subcaption) && (
 
                         <div className="relative rounded-b-xl bg-black/20 px-5 py-3 text-sm text-[#DFDFDF]">
-                            <p className={isCaptionExpanded ? "" : "line-clamp-1 pr-20"}>
+                            <p className={isCaptionExpanded ? "" : "line-clamp-2 pr-20 lg:line-clamp-1"}>
 
                                 {/* Display the caption if it exists */}
                                 {gallery[selectedIndex].caption && (
-                                    <span className="font-semibold text-[#F5F5F5]">
+                                    <span className="block font-semibold text-[#F5F5F5] lg:inline">
                                         {gallery[selectedIndex].caption}
                                     </span>
                                 )}
 
                                 {/* Display the subcaption if it exists */}
-                                {gallery[selectedIndex].caption && gallery[selectedIndex].subcaption && " - "}
-                                {gallery[selectedIndex].subcaption}
+                                {gallery[selectedIndex].caption && gallery[selectedIndex].subcaption && (
+                                    <span className="hidden lg:inline"> - </span>
+                                )}
+                                {gallery[selectedIndex].subcaption && (
+                                    <span className="pt-2 lg:pt-0 block lg:inline">
+                                        {gallery[selectedIndex].subcaption}
+                                    </span>
+                                )}
                                 {isCaptionExpanded && gallery[selectedIndex].subcaption && (
-                                    <>
-                                        {" "}
-                                        <button
-                                            type="button"
-                                            onClick={() => setIsCaptionExpanded(false)}
-                                            className="text-green-200 underline underline-offset-2 hover:text-white"
-                                        >
-                                            See less
-                                        </button>
-                                    </>
+                                    <button
+                                        type="button"
+                                        onClick={() => setIsCaptionExpanded(false)}
+                                        className="block text-green-200 underline underline-offset-2 hover:text-white lg:inline"
+                                    >
+                                        See less
+                                    </button>
                                 )}
                             </p>
 
@@ -260,7 +263,7 @@ export default function ProjectDesignGallery({ project }) {
                                 <button
                                     type="button"
                                     onClick={() => setIsCaptionExpanded(true)}
-                                    className="absolute right-5 top-1/2 -translate-y-1/2 px-1 text-green-200 underline underline-offset-2 hover:text-white"
+                                    className="absolute right-5 bottom-3 px-1 text-green-200 underline underline-offset-2 hover:text-white lg:top-1/2 lg:bottom-auto lg:-translate-y-1/2"
                                 >
                                     See more
                                 </button>
