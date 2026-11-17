@@ -13,8 +13,11 @@ My personal portfolio that showcases my education, experience, academic projects
 | Icons | [react-icons](https://react-icons.github.io/react-icons) |
 | Font | [Inter](https://fonts.google.com/specimen/Inter) via `next/font` |
 | Linting | ESLint (`eslint-config-next`) |
+| Hosting | [Vercel](https://vercel.com) |
 
 ## Running The Portfolio
+
+You may visit my portfolio's live link at [https://leeroiv.dev](https://leeroiv.dev) on your preferred browser and device.
 
 ```bash
 npm install
