@@ -45,7 +45,6 @@ const SkillsContent = () => {
             {/* Overarching div */}
             <div className="flex flex-col gap-2">
 
-                {/* TODO: Turn into grid with 2 columns */}
                 <div className="grid grid-cols-2 gap-12">
 
                     {/* Frontend Development */}
@@ -55,7 +54,6 @@ const SkillsContent = () => {
                         <div className="grid grid-cols-2 gap-4 [&>div]:items-center">
 
                             <div className="flex flex-row gap-4 items-center">
-                                {/* TODO: Insert technology logo as rounded square photo */}
                                 <Image
                                     src={reactImage}
                                     alt="React Logo"
